@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<garden_data>
+  <title>The Garden in the Cove</title>
+  <contact>
+    <name>Brian and Michelle</name>
+    <address>
+      <street>Waterway Cove</street>
+      <city>Austin</city>
+      <state>TX</state>
+    </address>
+    <phone>512.825.0482</phone>
+  </contact>
+  <about>
+    The goings on in our garden and workshop.
+  </about>
+  <name>Branch Cove Garden</name>
+  <headlines>
+    <headline>
+      <title>
+        Seed Starting
+      </title>
+      <paragraph>
+        January marks the start of seed starting for the spring garden.
+      </paragraph>
+    </headline>
+    <headline>
+      <title>
+        Fall Bulbs
+      </title>
+      <paragraph>
+        Tulips, Hyacinths, and Daffodils for Spring.
+      </paragraph>
+    </headline>
+  </headlines>
+  <articles>
+    <article>
+      <date>Dec-23-2018</date>
+      <author>Brian</author>
+      <title></title>
+      <paragraphs>
+        <paragraph>
+        </paragraph>
+      </paragraphs>
+    </article>
+  </articles>
+  <plantings>
+    <planting>
+      <name>Spellbound Dark Purple Petunia</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.burpee.com/flowers/petunias/petunia-spellbound-dark-purple-hybrid-prod500452.html]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwa327201d/Images/Product%20Images/prod500452/prod500452.jpg?sw=322&sh=380&sm=fit]]></image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <id>1</id>
+    </planting>
+    <planting>
+      <name>Spellbound Wine Red Petunia</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.burpee.com/flowers/petunias/petunia-spellbound-wine-red-hybrid-prod500455.html]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw715b528c/Images/Product%20Images/prod500455/prod500455.jpg?sw=322&sh=380&sm=fit]]></image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <id>2</id>
+    </planting>
+    <planting>
+      <name>Mandarin Orange Cosmos</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.burpee.com/flowers/cosmos/cosmos-mandarin-orange-prod500425.html]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwc446bc9c/Images/Product%20Images/prod500425/prod500425.jpg?sw=322&sh=380&sm=fit]]></image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <id>3</id>
+    </planting>
+    <planting>
+      <name>Heirloom Black Hybrid Tomato</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.seedsnsuch.com/product/heirloom-black-hybrid-tomato/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/heirloom-black-hybrid.jpg]]></image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <id>4</id>
+    </planting>
+    <planting>
+      <name>Chef’s Choice Red Hybrid Tomato VFF</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.seedsnsuch.com/product/chefs-choice-red-hybrid-tomato-vff/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/chefs-choice-red-hybrid.jpg"]]></image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <id>5</id>
+    </planting>
+    <planting>
+      <name>Charger Hybrid Tomato VFFFAStTylcv</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.seedsnsuch.com/product/charger-vfffasttylcv-hybrid/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/charger-1.jpg]]></image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <id>6</id>
+    </planting>
+    <planting>
+      <name>Sugary Hybrid Tomato Seeds</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.seedsnsuch.com/product/sugary-hybrid-tomato-seeds/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/Tom_Sugary_cmyk-1.jpg]]></image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <id>7</id>
+    </planting>
+    <planting>
+      <name>Patio Choice Yellow Hybrid Tomato VFT</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.seedsnsuch.com/product/patio-choice-yellow-hybrid-tomato-vft/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/patiochoiceyellow-1.jpeg]]></image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <id>8</id>
+    </planting>
+    <planting>
+      <name>Harlequin Mix Dahlia</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.seedsnsuch.com/product/harlequin-mix/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/harlequin-1.jpg]]></image>
+      <type>Flower</type>
+      <note>Dahlia's from seed, never have tried that before.</note>
+      <location></location>
+      <id>9</id>
+    </planting>
+    <planting>
+      <name>Garden Salsa Hybrid Hot Pepper Seeds</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.seedsnsuch.com/product/garden-salsa-hybrid-hot-pepper-seeds/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/Pep_Garden_Salsa_cmyk-1.jpg]]></image>
+      <type>Vegetable</type>
+      <note>Medium heat bread specifically for use in salsas</note>
+      <location></location>
+      <id>10</id>
+    </planting>
+    <planting>
+      <name>Mad Hatter Hybrid Pepper</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.seedsnsuch.com/product/mad-hatter-hybrid-pepper/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/madhatter-1.jpeg]]></image>
+      <type>Vegetable</type>
+      <note>Sweet, mild heat, citrus notes</note>
+      <location></location>
+      <id>11</id>
+    </planting>
+    <planting>
+      <name>Mixed Alliums</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.brecks.com/product/giant-mixed-allium-super-bag]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.brecks.com/images/500/72751.jpg]]></image>
+      <type>Flower</type>
+      <note></note>
+      <location>Michelle's Flower Box</location>
+      <id>12</id>
+    </planting>
+    <planting>
+      <name>Schubertii Allium</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.brecks.com/product/schubertii-allium]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.brecks.com/images/500/67227.jpg]]></image>
+      <type>Flower</type>
+      <note></note>
+      <location>Michelle's Flower Box</location>
+      <id>13</id>
+    </planting>
+    <planting>
+      <name>Hair Allium</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.brecks.com/product/hair-allium-]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.brecks.com/images/500/39472.jpg]]></image>
+      <type>Flower</type>
+      <note></note>
+      <location>Michelle's Flower Box</location>
+      <id>13</id>
+    </planting>
+  </plantings>
+</garden_data>
