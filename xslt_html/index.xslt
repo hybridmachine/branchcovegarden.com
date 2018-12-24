@@ -128,7 +128,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <a href="#services" class="scroll">Services</a>
                       </li>
                       <li>
-                        <a href="#gallery" class="scroll">Gallery</a>
+                        <a href="#gallery" class="scroll">Plantings</a>
                       </li>
                       <li>
                         <a href="#team" class="scroll">Team</a>
@@ -252,7 +252,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="gallery" id="gallery">
           <div class="container">
             <div class="w3ls-heading">
-              <h3>Our Gallery</h3>
+              <h3>2019 Plantings</h3>
             </div>
             <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
               <ul id="myTab" class="nav nav-tabs" role="tablist">
@@ -275,110 +275,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
               <div id="myTabContent" class="tab-content">
                 <div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
                   <div class="w3_tab_img">
-                    <div class="col-sm-3 w3_tab_img_left">
-                      <div class="demo">
-                        <a class="cm-overlay" href="images/g1.jpg">
-                          <figure class="imghvr-shutter-in-out-diag-2">
-                            <img src="images/g1.jpg" alt=" " class="img-responsive" />
-                          </figure>
-                        </a>
+                    <xsl:for-each select="garden_data/plantings/planting">
+                      <xsl:variable name="link" select="link"/>
+								      <xsl:variable name="imgsrc" select="image"/>
+                      <div class="col-sm-3 w3_tab_img_left">
+                        <div class="demo">
+                          <a class="cm-overlay" href="{$imgsrc}">
+                            <figure class="imghvr-shutter-in-out-diag-2">
+                              <img src="{$imgsrc}" alt=" " class="img-responsive" />
+                            </figure>
+                          </a>
+                        </div>
+                        <div class="agile-gallery-info">
+                          <h5><xsl:value-of select="name" /></h5>
+                          <p><xsl:value-of select="note" /></p>
+                          <p><a href="{$link}" target="vendor_info">Info</a></p>
+                        </div>
                       </div>
-                      <div class="agile-gallery-info">
-                        <h5>Lorem</h5>
-                        <p>Consectetur</p>
-                      </div>
-                    </div>
-                    <div class="col-sm-3 w3_tab_img_left">
-                      <div class="demo">
-                        <a class="cm-overlay" href="images/g2.jpg">
-                          <figure class="imghvr-shutter-in-out-diag-2">
-                            <img src="images/g2.jpg" alt=" " class="img-responsive" />
-                          </figure>
-                        </a>
-                      </div>
-                      <div class="agile-gallery-info">
-                        <h5>Ipsum</h5>
-                        <p>Adipiscing </p>
-                      </div>
-                    </div>
-                    <div class="col-sm-3 w3_tab_img_left">
-                      <div class="demo">
-                        <a class="cm-overlay" href="images/g3.jpg">
-                          <figure class="imghvr-shutter-in-out-diag-2">
-                            <img src="images/g3.jpg" alt=" " class="img-responsive" />
-                          </figure>
-                        </a>
-                      </div>
-                      <div class="agile-gallery-info">
-                        <h5>Vivamus</h5>
-                        <p>Ullamcorper  </p>
-                      </div>
-                    </div>
-                    <div class="col-sm-3 w3_tab_img_left">
-                      <div class="demo">
-                        <a class="cm-overlay" href="images/g4.jpg">
-                          <figure class="imghvr-shutter-in-out-diag-2">
-                            <img src="images/g4.jpg" alt=" " class="img-responsive" />
-                          </figure>
-                        </a>
-                      </div>
-                      <div class="agile-gallery-info">
-                        <h5>Fusce</h5>
-                        <p>Tristique</p>
-                      </div>
-                    </div>
-                    <div class="col-sm-3 w3_tab_img_left">
-                      <div class="demo">
-                        <a class="cm-overlay" href="images/g5.jpg">
-                          <figure class="imghvr-shutter-in-out-diag-2">
-                            <img src="images/g5.jpg" alt=" " class="img-responsive" />
-                          </figure>
-                        </a>
-                      </div>
-                      <div class="agile-gallery-info">
-                        <h5>Nullam</h5>
-                        <p>accumsan</p>
-                      </div>
-                    </div>
-                    <div class="col-sm-3 w3_tab_img_left">
-                      <div class="demo">
-                        <a class="cm-overlay" href="images/g6.jpg">
-                          <figure class="imghvr-shutter-in-out-diag-2">
-                            <img src="images/g6.jpg" alt=" " class="img-responsive" />
-                          </figure>
-                        </a>
-                      </div>
-                      <div class="agile-gallery-info">
-                        <h5>Donec</h5>
-                        <p>Vulputate</p>
-                      </div>
-                    </div>
-                    <div class="col-sm-3 w3_tab_img_left">
-                      <div class="demo">
-                        <a class="cm-overlay" href="images/g7.jpg">
-                          <figure class="imghvr-shutter-in-out-diag-2">
-                            <img src="images/g7.jpg" alt=" " class="img-responsive" />
-                          </figure>
-                        </a>
-                      </div>
-                      <div class="agile-gallery-info">
-                        <h5>Vivamus</h5>
-                        <p>Sodales</p>
-                      </div>
-                    </div>
-                    <div class="col-sm-3 w3_tab_img_left">
-                      <div class="demo">
-                        <a class="cm-overlay" href="images/g1.jpg">
-                          <figure class="imghvr-shutter-in-out-diag-2">
-                            <img src="images/g1.jpg" alt=" " class="img-responsive" />
-                          </figure>
-                        </a>
-                      </div>
-                      <div class="agile-gallery-info">
-                        <h5>Morbi</h5>
-                        <p>Ornare </p>
-                      </div>
-                    </div>
+                    </xsl:for-each>
                     <div class="clearfix"> </div>
                   </div>
                 </div>
