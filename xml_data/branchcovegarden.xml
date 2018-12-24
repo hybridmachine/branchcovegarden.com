@@ -198,5 +198,115 @@
       <location>Michelle's Flower Box</location>
       <id>13</id>
     </planting>
+    <planting>
+      <name>Autumn Beauty - Sunflower</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.rareseeds.com/autumn-beauty-sunflower/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Flower-Sunflower-Autumn-Beauty-FL720-web.jpg]]></image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <id>14</id>
+    </planting>
+    <planting>
+      <name>Red Roselle</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.rareseeds.com/red-roselle/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/roselle-thai-red1.jpg]]></image>
+      <type>Fruit</type>
+      <note>Beautiful flower, similar to Okra. This is the plant Hibiscus tea is made from. Some of the seeds are from last years crop</note>
+      <location></location>
+      <id>15</id>
+    </planting>
+    <planting>
+      <name>Agastache - Navajo Sunset</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.rareseeds.com/agastache-navajo-sunset-/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Agastache-Aunanantaca-Navajo-Sunset-LSS-000_09111.jpg]]></image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <id>16</id>
+    </planting>
+    <planting>
+      <name>Purple Lady Boc Choy</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.rareseeds.com/purple-lady-bok-choy-/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Greens-Oriental-Purple-Baby-Bok-Choi-LSS-DSC_7442.jpg]]></image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <id>17</id>
+    </planting>
+    <planting>
+      <name>Sugar Rush Peach Hot Pepper</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.rareseeds.com/sugar-rush-peach-hot-pepper-/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Pepper-Sugar-Rush-Peach-MA-IMG_1406.jpg]]></image>
+      <type>Fruit</type>
+      <note></note>
+      <location></location>
+      <id>18</id>
+    </planting>
+    <planting>
+      <name>Molokai Purple Sweet Potato</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.rareseeds.com/sweet-potato-molokai-purple-3-plants-ships-march-june-/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Sweet-Potato-Molokai-Purple-LSS-(31).jpg]]></image>
+      <type>Root Vegetable</type>
+      <note></note>
+      <location></location>
+      <id>19</id>
+    </planting>
+    <planting>
+      <name>Black Nebula Carrot</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.rareseeds.com/black-nebula-carrot/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Black-Nebula-Carrot-MA-DSC07863.jpg]]></image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <id>20</id>
+    </planting>
+    <planting>
+      <name>Mexican Sunflower - Red Torch</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.rareseeds.com/mexican-sunflower-red-torch/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Flower-Sunflower-Mexican-Torch-Red-DSC08036.jpg]]></image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <id>21</id>
+    </planting>
+    <planting>
+      <name>Giant Red Celery</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.rareseeds.com/giant-red-celery/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/CELERY-GIANT-RED-11401.jpg]]></image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <id>22</id>
+    </planting>
+    <planting>
+      <name>Rainbow Floral Strain Mix Coleus</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.rareseeds.com/rainbow-floral-strain-mix-coleus/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Coleus--Rainbow-Floral-Strain-Mix-LSS-000_2625.jpg]]></image>
+      <type>Ornamental</type>
+      <note></note>
+      <location></location>
+      <id>23</id>
+    </planting>
   </plantings>
 </garden_data>
