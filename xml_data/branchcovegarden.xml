@@ -11,8 +11,23 @@
     <phone>512.825.0482</phone>
   </contact>
   <about>
-    The goings on in our garden and workshop.
+    The goings on in our garden and workshop here in the cove. A quiet garden nook tucked in a corner surrounded by trees and wildlife near our community park.
   </about>
+  <snapshots>
+    <!-- These are images to display as a backdrop, highlighting events through the year. The name of the images only here, the full path is handled in the template-->
+    <snapshot>
+      <image>hot_biscuits.jpg</image>
+    </snapshot>
+  <snapshot>
+    <image>gazanias.jpg</image> 
+    </snapshot>
+  <snapshot>
+    <image>rosella.jpg</image> 
+    </snapshot>
+  <snapshot>
+    <image>sunflower1.jpg</image> 
+    </snapshot>
+  </snapshots>
   <name>Branch Cove Garden</name>
   <headlines>
     <headline>

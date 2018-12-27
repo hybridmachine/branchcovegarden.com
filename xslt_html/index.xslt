@@ -196,20 +196,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
               <h2>About Us</h2>
             </div>
             <div class="w3ls-about-info">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit interdum rutrum. Cras tincidunt rhoncus turpis. Nulla elit nibh, vehicula vitae tortor a, fermentum euismod erat. Phasellus vel eros sed sem luctus fringilla sed eleifend eros. Sed et elementum lectus. Aenean ultrices pharetra vestibulum. Praesent a turpis sed nunc auctor vehicula id a sapien. Proin at nulla commodo, pretium enim et, fringilla elit.</p>
+              <p>
+                <xsl:value-of select="garden_data/about"/></p>
               <div class="w3ls-about-grids">
+                <xsl:for-each select="garden_data/snapshots/snapshot">
+                  <xsl:variable name="img" select="image"/>
                 <div class="col-md-3 w3ls-about-grid">
-                  <img src="images/4.jpg" alt="" />
+                  <img src="images/{$img}" alt="" />
                 </div>
-                <div class="col-md-3 w3ls-about-grid">
-                  <img src="images/5.jpg" alt="" />
-                </div>
-                <div class="col-md-3 w3ls-about-grid">
-                  <img src="images/6.jpg" alt="" />
-                </div>
-                <div class="col-md-3 w3ls-about-grid">
-                  <img src="images/7.jpg" alt="" />
-                </div>
+                </xsl:for-each>
                 <div class="clearfix"> </div>
               </div>
             </div>
@@ -784,7 +779,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <footer>
           <div class="container">
             <p>
-              © 2017 Garden . All Rights Reserved | Design by <a href="http://w3layouts.com/"> W3layouts</a>
+              © 20197 Brian And Michelle . All Rights Reserved | Design by <a href="http://w3layouts.com/"> W3layouts</a>
             </p>
           </div>
         </footer>
