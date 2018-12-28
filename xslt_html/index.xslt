@@ -125,13 +125,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <a href="#about" class="scroll">About</a>
                       </li>
                       <li>
-                        <a href="#services" class="scroll">Services</a>
-                      </li>
-                      <li>
                         <a href="#gallery" class="scroll">Plantings</a>
-                      </li>
-                      <li>
-                        <a href="#team" class="scroll">Team</a>
                       </li>
                       <li>
                         <a href="#news" class="scroll">News</a>
@@ -211,38 +205,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           </div>
         </div>
         <!-- //about -->
-        <!-- services -->
-        <div class="services" id="services">
-          <div class="container">
-            <div class="w3ls-heading">
-              <h3>Our Services</h3>
-            </div>
-            <div class="services-grids">
-              <div class="col-md-3 services-grid">
-                <div class="services-grid-info effect-1">
-                  <h4>Aenean</h4>
-                </div>
-              </div>
-              <div class="col-md-3 services-grid">
-                <div class="services-grid-info services-grid-info1 effect-1">
-                  <h4>Maecenas</h4>
-                </div>
-              </div>
-              <div class="col-md-3 services-grid">
-                <div class="services-grid-info services-grid-info2 effect-1">
-                  <h4>Vivamus</h4>
-                </div>
-              </div>
-              <div class="col-md-3 services-grid">
-                <div class="services-grid-info services-grid-info3 effect-1">
-                  <h4>Aliquam </h4>
-                </div>
-              </div>
-              <div class="clearfix"> </div>
-            </div>
-          </div>
-        </div>
-        <!-- //services -->
         <!-- gallery -->
         <div class="gallery" id="gallery">
           <div class="container">
@@ -454,183 +416,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           </div>
         </div>
         <!-- //gallery -->
-        <!-- team -->
-        <div class="jarallax team" id="team">
-          <div class="team-dot">
-            <div class="container">
-              <div class="w3ls-heading team-heading">
-                <h3>Our Team</h3>
-              </div>
-              <div class="agileits-team-grids">
-                <div class="col-md-3 agileits-team-grid">
-                  <div class="team-info">
-                    <img src="images/t1.jpg" alt=""/>
-                    <div class="team-caption">
-                      <h4>Peter Parker</h4>
-                      <p>Fusce laoreet</p>
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-facebook"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-twitter"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-rss"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 agileits-team-grid">
-                  <div class="team-info">
-                    <img src="images/t2.jpg" alt=""/>
-                    <div class="team-caption">
-                      <h4>Johan Botha</h4>
-                      <p>Fusce laoreet</p>
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-facebook"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-twitter"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-rss"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 agileits-team-grid">
-                  <div class="team-info">
-                    <img src="images/t3.jpg" alt=""/>
-                    <div class="team-caption">
-                      <h4>Justo Congue</h4>
-                      <p>Fusce laoreet</p>
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-facebook"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-twitter"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-rss"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 agileits-team-grid">
-                  <div class="team-info">
-                    <img src="images/t4.jpg" alt=""/>
-                    <div class="team-caption">
-                      <h4>Steven Wilson</h4>
-                      <p>Fusce laoreet</p>
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-facebook"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-twitter"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-rss"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="clearfix"> </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- //team -->
         <!-- news -->
         <div class="news" id="news">
           <div class="container">
             <div class="w3ls-heading">
-              <h3>Our News</h3>
+              <h3>News</h3>
             </div>
             <div class="wthree-news-grids">
-              <div class="col-md-4 agile-news-right-info">
-                <div class="col-md-6 agile-news-img">
+              <xsl:for-each select="garden_data/articles/article[not(position() >3)]">
+                <div class="col-md-4 agile-news-right-info">
+                  <div class="col-md-6 agile-news-img">
 
+                  </div>
+                  <div class="col-md-6 agile-news-img-info">
+                    <h5>
+                      <a href="#" data-toggle="modal" data-target="#myModal">
+                        <xsl:value-of select="title"/>
+                      </a>
+                    </h5>
+                    <div class="agileits-w3layouts-border"> </div>
+                    <p>
+                      <xsl:value-of select="paragraphs/paragraph"/>
+                    </p>
+                    <h6>
+                      <i class="fa fa-calendar" aria-hidden="true"></i><xsl:value-of select="date"/>
+                    </h6>
+                  </div>
+                  <div class="clearfix"> </div>
                 </div>
-                <div class="col-md-6 agile-news-img-info">
-                  <h5>
-                    <a href="#" data-toggle="modal" data-target="#myModal">Lorem ipsum dolor</a>
-                  </h5>
-                  <div class="agileits-w3layouts-border"> </div>
-                  <p>Maecenas et suscipit augue. Aenean at ultricies lacus.</p>
-                  <h6>
-                    <i class="fa fa-calendar" aria-hidden="true"></i> 24th Sept,2017
-                  </h6>
-                </div>
-                <div class="clearfix"> </div>
-              </div>
-              <div class="col-md-4 agile-news-right-info">
-                <div class="col-md-6 agile-news-img agile-news-img1">
-
-                </div>
-                <div class="col-md-6 agile-news-img-info">
-                  <h5>
-                    <a href="#" data-toggle="modal" data-target="#myModal">Lorem ipsum dolor</a>
-                  </h5>
-                  <div class="agileits-w3layouts-border"> </div>
-                  <p>Maecenas et suscipit augue. Aenean at ultricies lacus.</p>
-                  <h6>
-                    <i class="fa fa-calendar" aria-hidden="true"></i> 13th May,2017
-                  </h6>
-                </div>
-                <div class="clearfix"> </div>
-              </div>
-              <div class="col-md-4 agile-news-right-info">
-                <div class="col-md-6 agile-news-img agile-news-img2">
-
-                </div>
-                <div class="col-md-6 agile-news-img-info">
-                  <h5>
-                    <a href="#" data-toggle="modal" data-target="#myModal">Lorem ipsum dolor</a>
-                  </h5>
-                  <div class="agileits-w3layouts-border"> </div>
-                  <p>Maecenas et suscipit augue. Aenean at ultricies lacus.</p>
-                  <h6>
-                    <i class="fa fa-calendar" aria-hidden="true"></i> 13th Nov,2017
-                  </h6>
-                </div>
+              </xsl:for-each>
                 <div class="clearfix"> </div>
               </div>
               <div class="clearfix"> </div>
             </div>
           </div>
-        </div>
         <!-- //news -->
         <!-- modal -->
         <div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
@@ -779,7 +598,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <footer>
           <div class="container">
             <p>
-              © 20197 Brian And Michelle . All Rights Reserved | Design by <a href="http://w3layouts.com/"> W3layouts</a>
+              © 2019 Brian And Michelle . All Rights Reserved | Design by <a href="http://w3layouts.com/"> W3layouts</a>
             </p>
           </div>
         </footer>
