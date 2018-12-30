@@ -324,5 +324,82 @@
       <location></location>
       <id>23</id>
     </planting>
+    <planting>
+      <name>Chrysanthemum, Tricolor Daisy</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.burpee.com/flowers/chrysanthemum/chrysanthemum-tricolor-daisy-42861A.html]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwadd8a9aa/Images/Product%20Images/prod000156/prod000156.jpg?sw=322&sh=380&sm=fit]]></image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <id>24</id>
+    </planting>
+    <planting>
+      <name>Arugala, Red Dragon</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.burpee.com/vegetables/arugula/arugula-red-dragon-54470A.html]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwc058dced/Images/Product%20Images/prod500402/prod500402.jpg?sw=322&sh=380&sm=fit]]></image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <id>25</id>
+    </planting>
+    <planting>
+      <name>Curled Chervil</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.burpee.com/herbs/chervil/chervil-curled-61390A.html]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwb03e0fc9/Images/Product%20Images/prod001078/prod001078.jpg?sw=322&sh=380&sm=fit]]></image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <id>26</id>
+    </planting>
+    <planting>
+      <name>Balsam Mix</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.burpee.com/flowers/balsam/balsam-mix-43018A.html]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwddcd6bc6/Images/Product%20Images/prod000129/prod000129.jpg?sw=322&sh=380&sm=fit]]></image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <id>27</id>
+    </planting>
+    <planting>
+      <name>Dusty Miller, Silver Lace</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.burpee.com/flowers/dusty-miller/dusty-miller-silver-lace-31336A.html]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwd64fad96/Images/Product%20Images/prod000198/prod000198.jpg?sw=322&sh=380&sm=fit]]></image>
+      <type>Ornamental</type>
+      <note></note>
+      <location></location>
+      <id>28</id>
+    </planting>
+    <planting>
+      <name>Lobelia, Crystal Palace Blue</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.burpee.com/flowers/lobelias/lobelia-crystal-palace-blue-31971A.html]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw7ca025d8/Images/Product%20Images/prod000256/prod000256.jpg?sw=322&sh=380&sm=fit]]></image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <id>29</id>
+    </planting>
+    <planting>
+      <name>Dichondra, Silver Falls</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.burpee.com/flowers/dichondra/dichondra-silver-falls-20422.html]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw4a08da73/Images/Product%20Images/prod001742/prod001742.jpg?sw=322&sh=380&sm=fit]]></image>
+      <type>Ornamental</type>
+      <note></note>
+      <location></location>
+      <id>30</id>
+    </planting>
   </plantings>
 </garden_data>
