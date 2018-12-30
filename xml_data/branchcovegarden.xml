@@ -69,7 +69,11 @@
       <type>Flower</type>
       <note></note>
       <location></location>
-      <id>1</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Spellbound Wine Red Petunia</name>
@@ -80,7 +84,11 @@
       <type>Flower</type>
       <note></note>
       <location></location>
-      <id>2</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Mandarin Orange Cosmos</name>
@@ -91,7 +99,11 @@
       <type>Flower</type>
       <note></note>
       <location></location>
-      <id>3</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Heirloom Black Hybrid Tomato</name>
@@ -102,7 +114,11 @@
       <type>Vegetable</type>
       <note></note>
       <location></location>
-      <id>4</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Chef’s Choice Red Hybrid Tomato VFF</name>
@@ -113,7 +129,11 @@
       <type>Vegetable</type>
       <note></note>
       <location></location>
-      <id>5</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Charger Hybrid Tomato VFFFAStTylcv</name>
@@ -124,7 +144,11 @@
       <type>Vegetable</type>
       <note></note>
       <location></location>
-      <id>6</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Sugary Hybrid Tomato Seeds</name>
@@ -135,7 +159,11 @@
       <type>Vegetable</type>
       <note></note>
       <location></location>
-      <id>7</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Patio Choice Yellow Hybrid Tomato VFT</name>
@@ -146,7 +174,11 @@
       <type>Vegetable</type>
       <note></note>
       <location></location>
-      <id>8</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Harlequin Mix Dahlia</name>
@@ -157,7 +189,11 @@
       <type>Flower</type>
       <note>Dahlia's from seed, never have tried that before.</note>
       <location></location>
-      <id>9</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Garden Salsa Hybrid Hot Pepper Seeds</name>
@@ -168,7 +204,11 @@
       <type>Vegetable</type>
       <note>Medium heat bread specifically for use in salsas</note>
       <location></location>
-      <id>10</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Mad Hatter Hybrid Pepper</name>
@@ -179,7 +219,11 @@
       <type>Vegetable</type>
       <note>Sweet, mild heat, citrus notes</note>
       <location></location>
-      <id>11</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Mixed Alliums</name>
@@ -190,7 +234,11 @@
       <type>Flower</type>
       <note></note>
       <location>Michelle's Flower Box</location>
-      <id>12</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Schubertii Allium</name>
@@ -201,7 +249,11 @@
       <type>Flower</type>
       <note></note>
       <location>Michelle's Flower Box</location>
-      <id>13</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Hair Allium</name>
@@ -212,7 +264,11 @@
       <type>Flower</type>
       <note></note>
       <location>Michelle's Flower Box</location>
-      <id>13</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Autumn Beauty - Sunflower</name>
@@ -223,7 +279,11 @@
       <type>Flower</type>
       <note></note>
       <location></location>
-      <id>14</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Red Roselle</name>
@@ -234,7 +294,11 @@
       <type>Fruit</type>
       <note>Beautiful flower, similar to Okra. This is the plant Hibiscus tea is made from. Some of the seeds are from last years crop</note>
       <location></location>
-      <id>15</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Agastache - Navajo Sunset</name>
@@ -245,7 +309,11 @@
       <type>Flower</type>
       <note></note>
       <location></location>
-      <id>16</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Purple Lady Boc Choy</name>
@@ -256,7 +324,11 @@
       <type>Vegetable</type>
       <note></note>
       <location></location>
-      <id>17</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Sugar Rush Peach Hot Pepper</name>
@@ -267,7 +339,11 @@
       <type>Fruit</type>
       <note></note>
       <location></location>
-      <id>18</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Molokai Purple Sweet Potato</name>
@@ -278,7 +354,11 @@
       <type>Root Vegetable</type>
       <note></note>
       <location></location>
-      <id>19</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Black Nebula Carrot</name>
@@ -289,7 +369,11 @@
       <type>Vegetable</type>
       <note></note>
       <location></location>
-      <id>20</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Mexican Sunflower - Red Torch</name>
@@ -300,7 +384,11 @@
       <type>Flower</type>
       <note></note>
       <location></location>
-      <id>21</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Giant Red Celery</name>
@@ -311,7 +399,11 @@
       <type>Vegetable</type>
       <note></note>
       <location></location>
-      <id>22</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Rainbow Floral Strain Mix Coleus</name>
@@ -322,7 +414,11 @@
       <type>Ornamental</type>
       <note></note>
       <location></location>
-      <id>23</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Chrysanthemum, Tricolor Daisy</name>
@@ -333,7 +429,11 @@
       <type>Flower</type>
       <note></note>
       <location></location>
-      <id>24</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Arugala, Red Dragon</name>
@@ -344,7 +444,11 @@
       <type>Vegetable</type>
       <note></note>
       <location></location>
-      <id>25</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Curled Chervil</name>
@@ -355,7 +459,11 @@
       <type>Vegetable</type>
       <note></note>
       <location></location>
-      <id>26</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Balsam Mix</name>
@@ -366,7 +474,11 @@
       <type>Flower</type>
       <note></note>
       <location></location>
-      <id>27</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Dusty Miller, Silver Lace</name>
@@ -377,7 +489,11 @@
       <type>Ornamental</type>
       <note></note>
       <location></location>
-      <id>28</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Lobelia, Crystal Palace Blue</name>
@@ -388,7 +504,11 @@
       <type>Flower</type>
       <note></note>
       <location></location>
-      <id>29</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
     <planting>
       <name>Dichondra, Silver Falls</name>
@@ -399,7 +519,11 @@
       <type>Ornamental</type>
       <note></note>
       <location></location>
-      <id>30</id>
+      <schedule>
+        <seed></seed>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
     </planting>
   </plantings>
 </garden_data>
