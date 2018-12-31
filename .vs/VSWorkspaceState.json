@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\xml_data",
+    "\\xslt_html"
   ],
+  "SelectedNode": "\\css\\bootstrap.css",
   "PreviewInSolutionExplorer": false
 }

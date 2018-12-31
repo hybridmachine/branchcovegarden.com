@@ -119,16 +119,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                       <li>
-                        <a class="active" href="index.html">Home</a>
+                        <a href="index.html">Home</a>
                       </li>
                       <li>
-                        <a class="scroll" href="maps.html">Maps</a>
+                        <a class="active" href="#gallery">Maps</a>
                       </li>
                       <li>
                         <a href="#about" class="scroll">About</a>
-                      </li>
-                      <li>
-                        <a href="#gallery" class="scroll">Plantings</a>
                       </li>
                       <li>
                         <a href="#news" class="scroll">News</a>
@@ -194,13 +191,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <div class="w3ls-about-info">
               <p>
-                <xsl:value-of select="garden_data/about"/></p>
+                <xsl:value-of select="garden_data/about"/>
+              </p>
               <div class="w3ls-about-grids">
                 <xsl:for-each select="garden_data/snapshots/snapshot">
                   <xsl:variable name="img" select="image"/>
-                <div class="col-md-3 w3ls-about-grid">
-                  <img src="images/{$img}" alt="" />
-                </div>
+                  <div class="col-md-3 w3ls-about-grid">
+                    <img src="images/{$img}" alt="" />
+                  </div>
                 </xsl:for-each>
                 <div class="clearfix"> </div>
               </div>
@@ -212,7 +210,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="gallery" id="gallery">
           <div class="container">
             <div class="w3ls-heading">
-              <h3>2019 Plantings</h3>
+              <h3>Garden Maps</h3>
             </div>
             <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
               <ul id="myTab" class="nav nav-tabs" role="tablist">
@@ -235,21 +233,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
               <div id="myTabContent" class="tab-content">
                 <div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
                   <div class="w3_tab_img">
-                    <xsl:for-each select="garden_data/plantings/planting">
+                    <xsl:for-each select="garden_data/maps/map">
                       <xsl:variable name="link" select="link"/>
-								      <xsl:variable name="imgsrc" select="image"/>
+                      <xsl:variable name="imgsrc" select="image"/>
                       <div class="col-sm-3 w3_tab_img_left">
                         <div class="demo">
-                          <a class="cm-overlay" href="{$imgsrc}">
+                          <a class="cm-overlay" href="images/{$imgsrc}">
                             <figure class="imghvr-shutter-in-out-diag-2">
-                              <img src="{$imgsrc}" alt=" " class="img-responsive" />
+                              <img src="images/{$imgsrc}" alt=" " class="img-responsive" />
                             </figure>
                           </a>
                         </div>
                         <div class="agile-gallery-info">
-                          <h5><xsl:value-of select="name" /></h5>
-                          <p><xsl:value-of select="note" /></p>
-                          <p><a href="{$link}" target="vendor_info">Info</a></p>
+                          <h5>
+                            <xsl:value-of select="name" />
+                          </h5>
                         </div>
                       </div>
                     </xsl:for-each>
@@ -292,17 +290,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                       <xsl:value-of select="paragraphs/paragraph"/>
                     </p>
                     <h6>
-                      <i class="fa fa-calendar" aria-hidden="true"></i><xsl:value-of select="date"/>
+                      <i class="fa fa-calendar" aria-hidden="true"></i>
+                      <xsl:value-of select="date"/>
                     </h6>
                   </div>
                   <div class="clearfix"> </div>
                 </div>
               </xsl:for-each>
-                <div class="clearfix"> </div>
-              </div>
               <div class="clearfix"> </div>
             </div>
+            <div class="clearfix"> </div>
           </div>
+        </div>
         <!-- //news -->
         <!-- modal -->
         <div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
