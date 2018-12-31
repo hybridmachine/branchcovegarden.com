@@ -122,7 +122,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <a class="active" href="index.html">Home</a>
                       </li>
                       <li>
-                        <a class="scroll" href="maps.html">Maps</a>
+                        <a href="maps.html">Maps</a>
                       </li>
                       <li>
                         <a href="#about" class="scroll">About</a>
