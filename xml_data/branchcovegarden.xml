@@ -80,8 +80,8 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
-        <transplant></transplant>
+        <seedstart type="planned">01/05/2019</seedstart>
+        <transplant type="planned">03/15/2019</transplant>
         <harvest></harvest>
       </schedule>
     </planting>
@@ -95,8 +95,8 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
-        <transplant></transplant>
+        <seedstart type="planned">01/05/2019</seedstart>
+        <transplant type="planned">03/15/2019</transplant>
         <harvest></harvest>
       </schedule>
     </planting>
@@ -110,7 +110,8 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
+        <directsow type="planned">03/01/2019</directsow>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -125,7 +126,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart type="planned">02/01/2019</seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -140,7 +141,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -155,7 +156,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -170,7 +171,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -185,7 +186,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -200,7 +201,7 @@
       <note>Dahlia's from seed, never have tried that before.</note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -215,7 +216,7 @@
       <note>Medium heat bread specifically for use in salsas</note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -230,7 +231,7 @@
       <note>Sweet, mild heat, citrus notes</note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -245,7 +246,7 @@
       <note></note>
       <location>Michelle's Flower Box</location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -260,7 +261,7 @@
       <note></note>
       <location>Michelle's Flower Box</location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -275,7 +276,7 @@
       <note></note>
       <location>Michelle's Flower Box</location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -290,7 +291,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -305,7 +306,7 @@
       <note>Beautiful flower, similar to Okra. This is the plant Hibiscus tea is made from. Some of the seeds are from last years crop</note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -320,7 +321,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -335,7 +336,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -350,7 +351,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -365,7 +366,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -380,7 +381,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -395,7 +396,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -410,7 +411,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -425,7 +426,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -440,7 +441,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -455,7 +456,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -470,7 +471,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -485,7 +486,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -500,7 +501,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -515,7 +516,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -530,7 +531,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seed></seed>
+        <seedstart></seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>

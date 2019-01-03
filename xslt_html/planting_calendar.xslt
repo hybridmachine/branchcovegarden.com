@@ -122,10 +122,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <a href="index.html">Home</a>
                       </li>
                       <li>
-                        <a class="active" href="#gallery">Maps</a>
+                        <a href="maps.html">Maps</a>
                       </li>
                       <li>
-                        <a href="planting_calendar.html">Planting Calendar</a>
+                        <a class="active" href="#gallery">Planting Calendar</a>
                       </li>
                       <li>
                         <a href="#about" class="scroll">About</a>
@@ -213,15 +213,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="gallery" id="gallery">
           <div class="container">
             <div class="w3ls-heading">
-              <h3>Garden Maps</h3>
+              <h3>Planting Schedule</h3>
             </div>
             <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
               <ul id="myTab" class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active">
-                  <a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home-main" aria-expanded="true">All</a>
+                  <a href="#home-main" id="seedstart-tab" role="tab" data-toggle="tab" aria-controls="seedstart-main" aria-expanded="true">Seed Start</a>
                 </li>
                 <li role="presentation">
-                  <a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">Category 1</a>
+                  <a href="#directsow" role="tab" id="directsow-tab" data-toggle="tab" aria-controls="directsow">Direct Sow</a>
                 </li>
                 <li role="presentation">
                   <a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">Category 2</a>
@@ -234,27 +234,68 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
               </ul>
               <div id="myTabContent" class="tab-content">
-                <div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
-                  <div class="w3_tab_img">
-                    <xsl:for-each select="garden_data/maps/map">
-                      <xsl:variable name="link" select="link"/>
-                      <xsl:variable name="imgsrc" select="image"/>
-                      <div class="col-sm-3 w3_tab_img_left">
-                        <div class="demo">
-                          <a class="cm-overlay" href="images/{$imgsrc}">
-                            <figure class="imghvr-shutter-in-out-diag-2">
-                              <img src="images/{$imgsrc}" alt=" " class="img-responsive" />
-                            </figure>
-                          </a>
-                        </div>
-                        <div class="agile-gallery-info">
-                          <h5>
-                            <xsl:value-of select="name" />
-                          </h5>
-                        </div>
-                      </div>
-                    </xsl:for-each>
-                    <div class="clearfix"> </div>
+                <div role="tabpanel" class="tab-pane fade in active" id="seedstart-main" aria-labelledby="seedstart-tab">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <tr>
+                        <th>Image</th>
+                        <th>Seed Starting Date</th>
+                        <th>Name</th>
+                      </tr>
+                      <xsl:for-each select="garden_data/plantings/planting">
+                        <xsl:sort select="schedule/seedstart" order="ascending"/>
+                        <xsl:if test="schedule/seedstart != ''">
+                          <xsl:variable name="link" select="link"/>
+                          <xsl:variable name="imgsrc" select="image"/>
+                          <tr>
+                            <td>
+                              <img width="120" src="{$imgsrc}"/>
+                            </td>
+                            <td>
+                              <xsl:value-of select="schedule/seedstart"/>
+                            </td>
+                            <td>
+                              <a href="{$link}" target="plant_info">
+                                <xsl:value-of select="name"/>
+                              </a>
+                            </td>
+                          </tr>
+                        </xsl:if>
+                      </xsl:for-each>
+                      <div class="clearfix"> </div>
+                    </table>
+                  </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade in active" id="directsow" aria-labelledby="directsow-tab">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <tr>
+                        <th>Image</th>
+                        <th>Direct Sow Date</th>
+                        <th>Name</th>
+                      </tr>
+                      <xsl:for-each select="garden_data/plantings/planting">
+                        <xsl:sort select="schedule/directsow" order="ascending"/>
+                        <xsl:if test="schedule/directsow != ''">
+                          <xsl:variable name="link" select="link"/>
+                          <xsl:variable name="imgsrc" select="image"/>
+                          <tr>
+                            <td>
+                              <img width="120" src="{$imgsrc}"/>
+                            </td>
+                            <td>
+                              <xsl:value-of select="schedule/directsow"/>
+                            </td>
+                            <td>
+                              <a href="{$link}" target="plant_info">
+                                <xsl:value-of select="name"/>
+                              </a>
+                            </td>
+                          </tr>
+                        </xsl:if>
+                      </xsl:for-each>
+                      <div class="clearfix"> </div>
+                    </table>
                   </div>
                 </div>
               </div>
