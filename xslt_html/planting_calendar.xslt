@@ -218,7 +218,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
               <ul id="myTab" class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active">
-                  <a href="#home-main" id="seedstart-tab" role="tab" data-toggle="tab" aria-controls="seedstart-main" aria-expanded="true">Seed Start</a>
+                  <a href="#seedstart-main" id="seedstart-tab" role="tab" data-toggle="tab" aria-controls="seedstart-main" aria-expanded="true">Seed Start</a>
                 </li>
                 <li role="presentation">
                   <a href="#directsow" role="tab" id="directsow-tab" data-toggle="tab" aria-controls="directsow">Direct Sow</a>
