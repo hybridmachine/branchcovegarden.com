@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:import href="gtag.xslt"/>
   <xsl:output method="html" indent="yes"/>
   <xsl:template match="/">
 
@@ -13,6 +14,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
     <html lang="en">
       <head>
+        <xsl:apply-imports/>
         <title>
           <xsl:value-of select="garden_data/title" />
         </title>

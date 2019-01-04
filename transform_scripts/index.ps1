@@ -1,1 +1,0 @@
-TransformXML "$PWD\xml_data\branchcovegarden.xml" "$PWD\xslt_html\index.xslt" "$PWD\index.html"
