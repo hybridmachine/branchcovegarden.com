@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\js",
     "\\transform_scripts",
+    "\\transform_scripts\\transforms",
     "\\xml_data",
     "\\xslt_html"
   ],
-  "SelectedNode": "\\xslt_html\\planting_calendar.xslt",
+  "SelectedNode": "\\xslt_html\\gtag.xslt",
   "PreviewInSolutionExplorer": false
 }

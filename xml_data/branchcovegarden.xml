@@ -537,5 +537,20 @@
         <harvest></harvest>
       </schedule>
     </planting>
+	<planting>
+      <name>Giant Lily-Of-The-Valley</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.brecks.com/product/giant-lily-of-the-valley-61057]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://s3.amazonaws.com/cdn.brecks.com/images/350/61057.jpg]]></image>
+      <type>Flower</type>
+      <note>Would work well in a container on the deck, loves part to full shade</note>
+      <location>Deck</location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
   </plantings>
 </garden_data>
