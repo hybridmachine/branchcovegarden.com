@@ -61,14 +61,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="banner">
           <div class="top-banner">
             <div class="container">
-              <div class="top-banner-left">
-                <ul>
-                  <li>
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                    <xsl:value-of select="garden_data/contact/phone" />
-                  </li>
-                </ul>
-              </div>
               <div class="top-banner-right">
                 <ul>
                   <li>
@@ -393,21 +385,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="address-info">
                   <p>
-                    Eiusmod Tempor inc<br/>
-                    St Dolore Place,<br/>
-                    Kingsport 56777.
-                  </p>
-                </div>
-                <div class="clearfix"> </div>
-              </div>
-              <div class="address-grid">
-                <div class="address-icon">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
-                </div>
-                <div class="address-info">
-                  <p>
-                    +1 234 567 8901<br/>
-                    +1 345 678 9012
+                    <xsl:value-of select="garden_data/contact/address/street"/><br/>
+                    <xsl:value-of select="garden_data/contact/address/city"/>,<br/>
+                    <xsl:value-of select="garden_data/contact/address/state"/>.
                   </p>
                 </div>
                 <div class="clearfix"> </div>
@@ -418,7 +398,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="address-info">
                   <p>
-                    <a href="mailto:example@email.com">mail@example.com</a>
+                    <xsl:variable name="email" select="garden_data/contact/email"/>
+                    <a href="{$email}">
+                      <xsl:copy-of select="$email" />
+                    </a>
                   </p>
                 </div>
                 <div class="clearfix"> </div>
