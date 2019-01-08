@@ -399,7 +399,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="address-info">
                   <p>
                     <xsl:variable name="email" select="garden_data/contact/email"/>
-                    <a href="{$email}">
+                    <a href="mailto:{$email}">
                       <xsl:copy-of select="$email" />
                     </a>
                   </p>
