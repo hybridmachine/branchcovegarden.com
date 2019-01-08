@@ -60,14 +60,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="banner">
           <div class="top-banner">
             <div class="container">
-              <div class="top-banner-left">
-                <ul>
-                  <li>
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                    <xsl:value-of select="garden_data/contact/phone" />
-                  </li>
-                </ul>
-              </div>
               <div class="top-banner-right">
                 <ul>
                   <li>
