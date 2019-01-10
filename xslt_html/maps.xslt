@@ -122,6 +122,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <a href="planting_calendar.html">Planting Calendar</a>
                       </li>
                       <li>
+                        <a href="garden_log.html">Garden Log</a>
+                      </li>
+                      <li>
                         <a href="#about" class="scroll">About</a>
                       </li>
                       <li>

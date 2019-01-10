@@ -3,7 +3,6 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:import href="gtag.xslt"/>
   <xsl:output method="html" indent="yes"/>
-  <xsl:param name="pNumCols" select="4"/>
   <xsl:template match="/">
 
     <!--A Design by W3layouts
@@ -114,22 +113,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                       <li>
-                        <a class="active" href="index.html">Home</a>
+                        <a href="index.html">Home</a>
                       </li>
                       <li>
-                        <a href="maps.html#gallery">Maps</a>
-                      </li>
-                      <li>
-                        <a href="#about" class="scroll">About</a>
-                      </li>
-                      <li>
-                        <a href="#gallery" class="scroll">Plantings</a>
+                        <a href="maps.html">Maps</a>
                       </li>
                       <li>
                         <a href="planting_calendar.html">Planting Calendar</a>
                       </li>
                       <li>
-                        <a href="garden_log.html">Garden Log</a>
+                        <a class="active" href="#gallery">Garden Log</a>
+                      </li>
+                      <li>
+                        <a href="#about" class="scroll">About</a>
                       </li>
                       <li>
                         <a href="#news" class="scroll">News</a>
@@ -214,58 +210,47 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="gallery" id="gallery">
           <div class="container">
             <div class="w3ls-heading">
-              <h3>2019 Plantings</h3>
+              <h3>Garden Log</h3>
             </div>
             <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
-              <ul id="myTab" class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active">
-                  <a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home-main" aria-expanded="true">All</a>
-                </li>
-                <li role="presentation">
-                  <a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">Category 1</a>
-                </li>
-                <li role="presentation">
-                  <a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">Category 2</a>
-                </li>
-                <li role="presentation">
-                  <a href="#painting" role="tab" id="painting-tab" data-toggle="tab" aria-controls="painting">Category 3</a>
-                </li>
-                <li role="presentation">
-                  <a href="#school" role="tab" id="school-tab" data-toggle="tab" aria-controls="school">Category 4</a>
-                </li>
-              </ul>
               <div id="myTabContent" class="tab-content">
-                <div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
-                  <!-- 
-                  <xsl:for-each select="garden_data/plantings/planting">
-                    <xsl:variable name="link" select="link"/>
-                    <xsl:variable name="imgsrc" select="image"/>
-                    <div class="w3_tab_img">
-                      <div class="col-sm-3 w3_tab_img_left">
-                        <div class="demo">
-                          <a class="cm-overlay" href="{$imgsrc}">
-                            <figure class="imghvr-shutter-in-out-diag-2">
-                              <img src="{$imgsrc}" alt=" " class="img-responsive" />
-                            </figure>
-                          </a>
-                        </div>
-                        <div class="agile-gallery-info">
-                          <h5>
-                            <xsl:value-of select="name" />
-                          </h5>
-                          <p>
-                            <xsl:value-of select="note" />
-                          </p>
-                          <p>
-                            <a href="{$link}" target="vendor_info">Info</a>
-                          </p>
-                        </div>
-                      </div>
+                <div role="tabpanel" class="tab-pane fade in active" id="seedstart-main" aria-labelledby="seedstart-tab">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <tr>
+                        <th>Plant</th>
+                        <th>Date</th>
+                        <th>Note</th>
+                        <th>Image</th>
+                      </tr>
+                      <xsl:for-each select="garden_data/plantings/planting">
+                        <xsl:sort select="log/entry/date" order="descending"/>
+                        <xsl:if test="log/entry/date != ''">
+                          <xsl:variable name="noteimage" select="log/entry/image"/>
+                          <xsl:variable name="imgsrc" select="image"/>
+                          <tr>
+                            <td>
+                              <img width="120" src="{$imgsrc}"/>
+                            </td>
+                            <td>
+                              <xsl:value-of select="log/entry/date"/>
+                            </td>
+                            <td>
+                              <xsl:value-of select="log/entry/note"/>
+                            </td>
+                            <td>
+                              <xsl:if test="log/entry/image != ''">
+                              <a href="{$noteimage}" target="plant_info">
+                                <img width="120" src="{$noteimage}"/>
+                              </a>
+                              </xsl:if>
+                            </td>
+                          </tr>
+                        </xsl:if>
+                      </xsl:for-each>
                       <div class="clearfix"> </div>
-                    </div>
-                  </xsl:for-each>
-                    -->
-                  <xsl:apply-templates select="garden_data/plantings/planting[position() mod $pNumCols = 1]"/>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
@@ -336,120 +321,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           </div>
         </div>
         <!-- //modal -->
-        <!-- subscribe -->
-        <div class="subscribe">
-          <div class="w3ls-heading">
-            <h3>Subscribe</h3>
-          </div>
-          <div class="container">
-            <div class="w3-agile-subscribe">
-              <p>Subscribe to our email newsletter free useful updates everyday in your mailbox</p>
-              <form action="#" method="post">
-                <input type="email" id="mc4wp_email" name="EMAIL" placeholder="Enter your email here" required=""/>
-                <input type="submit" value="Subscribe"/>
-              </form>
-              <h5>OR</h5>
-              <div class="agileinfo-social-grids">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-rss"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-vk"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- //subscribe -->
-        <!-- contact -->
-        <div class="contact-form" id="contact">
-          <div class="col-md-4 contact-form-left">
-            <h5>Our Location</h5>
-            <div class="address-grids">
-              <div class="address-grid">
-                <div class="address-icon">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>
-                </div>
-                <div class="address-info">
-                  <p>
-                    <xsl:value-of select="garden_data/contact/address/street"/><br/>
-                    <xsl:value-of select="garden_data/contact/address/city"/>,<br/>
-                    <xsl:value-of select="garden_data/contact/address/state"/>.
-                  </p>
-                </div>
-                <div class="clearfix"> </div>
-              </div>
-              <div class="address-grid">
-                <div class="address-icon">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                </div>
-                <div class="address-info">
-                  <p>
-                    <xsl:variable name="email" select="garden_data/contact/email"/>
-                    <a href="mailto:{$email}">
-                      <xsl:copy-of select="$email" />
-                    </a>
-                  </p>
-                </div>
-                <div class="clearfix"> </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-8 contact-form-right">
-            <h5>Contact Form</h5>
-            <div class="contact-form-grid">
-              <form action="#" method="post">
-                <div class="fields-grid">
-                  <div class="styled-input agile-styled-input-top">
-                    <input type="text" name="Full Name" required=""/>
-                    <label>Full Name</label>
-                    <span></span>
-                  </div>
-                  <div class="styled-input agile-styled-input-top">
-                    <input type="text" name="Phone" required=""/>
-                    <label>Phone</label>
-                    <span></span>
-                  </div>
-                  <div class="styled-input">
-                    <input type="email" name="Email" required=""/>
-                    <label>Email</label>
-                    <span></span>
-                  </div>
-                  <div class="styled-input">
-                    <input type="text" name="Subject" required=""/>
-                    <label>Subject</label>
-                    <span></span>
-                  </div>
-                  <div class="clearfix"> </div>
-                </div>
-                <div class="styled-input textarea-grid">
-                  <textarea name="Message" required=""></textarea>
-                  <label>Message</label>
-                  <span></span>
-                </div>
-                <input type="submit" value="SEND"/>
-              </form>
-            </div>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-        <!-- //contact -->
         <!-- footer -->
         <footer>
           <div class="container">
@@ -490,35 +361,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <!-- //here ends scrolling icon -->
       </body>
     </html>
-  </xsl:template>
-    
-  <xsl:template match="planting">
-    <div class="w3_tab_img">
-      <xsl:for-each select=".|following-sibling::planting[not(position() > $pNumCols -1)]">
-        <xsl:variable name="link" select="link"/>
-        <xsl:variable name="imgsrc" select="image"/>
-        <div class="col-sm-3 w3_tab_img_left">
-          <div class="demo">
-            <a class="cm-overlay" href="{$imgsrc}">
-              <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="{$imgsrc}" alt=" " class="img-responsive" />
-              </figure>
-            </a>
-          </div>
-          <div class="agile-gallery-info">
-            <h5>
-              <xsl:value-of select="name" />
-            </h5>
-            <p>
-              <xsl:value-of select="note" />
-            </p>
-            <p>
-              <a href="{$link}" target="vendor_info">Info</a>
-            </p>
-          </div>
-        </div>
-      </xsl:for-each>
-    <div class="clearfix"> </div>
-    </div>
   </xsl:template>
 </xsl:stylesheet>

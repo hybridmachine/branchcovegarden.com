@@ -83,9 +83,17 @@
       <location></location>
       <schedule>
         <seedstart type="planned">01/05/2019</seedstart>
+        <seedstart type="actual">01/09/2019</seedstart>
         <transplant type="planned">03/15/2019</transplant>
         <harvest></harvest>
       </schedule>
+      <log>
+        <entry>
+          <date>01/09/2019</date>
+          <image></image>
+          <note>Planted in D1 - F2 of seed starter, running on heating mat</note>
+        </entry>
+      </log>
     </planting>
     <planting>
       <name>Spellbound Wine Red Petunia</name>
@@ -98,9 +106,17 @@
       <location></location>
       <schedule>
         <seedstart type="planned">01/05/2019</seedstart>
+        <seedstart type="actual">01/09/2019</seedstart>
         <transplant type="planned">03/15/2019</transplant>
         <harvest></harvest>
       </schedule>
+      <log>
+        <entry>
+          <date>01/09/2019</date>
+          <image></image>
+          <note>Planted in A1 - C2 of seed starter, running on heating mat</note>
+        </entry>
+      </log>      
     </planting>
     <planting>
       <name>Mandarin Orange Cosmos</name>

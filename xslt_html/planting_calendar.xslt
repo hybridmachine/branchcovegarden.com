@@ -233,7 +233,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <table class="table">
                       <tr>
                         <th>Image</th>
-                        <th>Seed Starting Date</th>
+                        <th>Planned Seed Starting Date</th>
+                        <th>Actual Seed Starting Date</th>
                         <th>Name</th>
                       </tr>
                       <xsl:for-each select="garden_data/plantings/planting">
@@ -246,7 +247,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                               <img width="120" src="{$imgsrc}"/>
                             </td>
                             <td>
-                              <xsl:value-of select="schedule/seedstart"/>
+                              <xsl:value-of select="schedule/seedstart[@type = 'planned']"/>
+                            </td>
+                            <td>
+                              <xsl:value-of select="schedule/seedstart[@type = 'actual']"/>
                             </td>
                             <td>
                               <a href="{$link}" target="plant_info">
