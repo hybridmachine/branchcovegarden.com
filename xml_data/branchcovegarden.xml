@@ -459,7 +459,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seedstart></seedstart>
+        <seedstart type="planned">01/11/2019</seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
@@ -534,7 +534,7 @@
       <note></note>
       <location></location>
       <schedule>
-        <seedstart></seedstart>
+        <seedstart type="planned">01/11/2019</seedstart>
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
