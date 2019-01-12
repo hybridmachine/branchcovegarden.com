@@ -117,9 +117,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <a href="maps.html#gallery">Maps</a>
                       </li>
                       <li>
-                        <a href="#about" class="scroll">About</a>
-                      </li>
-                      <li>
                         <a href="#gallery" class="scroll">Plantings</a>
                       </li>
                       <li>
@@ -130,6 +127,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                       </li>
                       <li>
                         <a href="#news" class="scroll">News</a>
+                      </li>
+                      <li>
+                        <a href="#about" class="scroll">About</a>
                       </li>
                     </ul>
                     <div class="clearfix"> </div>

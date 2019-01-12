@@ -122,9 +122,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <a href="garden_log.html">Garden Log</a>
                       </li>
                       <li>
-                        <a href="#about" class="scroll">About</a>
-                      </li>
-                      <li>
                         <a href="#news" class="scroll">News</a>
                       </li>
                       <li>
@@ -180,29 +177,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <span class="sr-only">Next</span>
           </a>
         </div>
-        <!-- about -->
-        <div class="about" id="about">
-          <div class="container">
-            <div class="w3ls-heading">
-              <h2>About Us</h2>
-            </div>
-            <div class="w3ls-about-info">
-              <p>
-                <xsl:value-of select="garden_data/about"/>
-              </p>
-              <div class="w3ls-about-grids">
-                <xsl:for-each select="garden_data/snapshots/snapshot">
-                  <xsl:variable name="img" select="image"/>
-                  <div class="col-md-3 w3ls-about-grid">
-                    <img src="images/{$img}" alt="" />
-                  </div>
-                </xsl:for-each>
-                <div class="clearfix"> </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- //about -->
         <!-- gallery -->
         <div class="gallery" id="gallery">
           <div class="container">
