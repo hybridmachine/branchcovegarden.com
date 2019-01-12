@@ -128,10 +128,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                       <li>
                         <a href="garden_log.html">Garden Log</a>
                       </li>
+                      <!--
                       <li>
                         <a href="#news" class="scroll">News</a>
                       </li>
-                      <!--
                       <li>
                         <a href="#contact" class="scroll">Contact</a>
                       </li>
