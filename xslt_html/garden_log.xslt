@@ -194,12 +194,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <th>Note</th>
                         <th>Image</th>
                       </tr>
-                      <xsl:for-each select="garden_data/plantings/planting/log">
+                      <xsl:for-each select="garden_data/plantings/planting">
                         <xsl:variable name="imgsrc" select="image"/>
-                        <xsl:for-each select="entry">
+                        <xsl:for-each select="log/entry">
                           <xsl:sort select="date" order="descending"/>
                           <xsl:if test="date != ''">
                             <xsl:variable name="noteimage" select="image"/>
+                            
                             <tr>
                               <td>
                                 <img width="120" src="{$imgsrc}"/>
