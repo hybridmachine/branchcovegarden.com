@@ -196,6 +196,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                       </tr>
                       <xsl:for-each select="garden_data/plantings/planting">
                         <xsl:variable name="imgsrc" select="image"/>
+                        <xsl:variable name="plantname" select="name"/>
                         <xsl:for-each select="log/entry">
                           <xsl:sort select="date" order="descending"/>
                           <xsl:if test="date != ''">
@@ -204,6 +205,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <tr>
                               <td>
                                 <img width="120" src="{$imgsrc}"/>
+                                <xsl:value-of select="$plantname"/>
                               </td>
                               <td>
                                 <xsl:value-of select="date"/>
