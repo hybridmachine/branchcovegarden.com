@@ -194,30 +194,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <th>Note</th>
                         <th>Image</th>
                       </tr>
-                      <xsl:for-each select="garden_data/plantings/planting">
-                        <xsl:sort select="log/entry/date" order="descending"/>
-                        <xsl:if test="log/entry/date != ''">
-                          <xsl:variable name="noteimage" select="log/entry/image"/>
-                          <xsl:variable name="imgsrc" select="image"/>
-                          <tr>
-                            <td>
-                              <img width="120" src="{$imgsrc}"/>
-                            </td>
-                            <td>
-                              <xsl:value-of select="log/entry/date"/>
-                            </td>
-                            <td>
-                              <xsl:value-of select="log/entry/note"/>
-                            </td>
-                            <td>
-                              <xsl:if test="log/entry/image != ''">
-                              <a href="{$noteimage}" target="plant_info">
-                                <img width="120" src="{$noteimage}"/>
-                              </a>
-                              </xsl:if>
-                            </td>
-                          </tr>
-                        </xsl:if>
+                      <xsl:for-each select="garden_data/plantings/planting/log">
+                        <xsl:variable name="imgsrc" select="image"/>
+                        <xsl:for-each select="entry">
+                          <xsl:sort select="date" order="descending"/>
+                          <xsl:if test="date != ''">
+                            <xsl:variable name="noteimage" select="image"/>
+                            <tr>
+                              <td>
+                                <img width="120" src="{$imgsrc}"/>
+                              </td>
+                              <td>
+                                <xsl:value-of select="date"/>
+                              </td>
+                              <td>
+                                <xsl:value-of select="note"/>
+                              </td>
+                              <td>
+                                <xsl:if test="image != ''">
+                                  <a href="images/{$noteimage}" target="plant_info">
+                                    <img width="120" src="images/{$noteimage}"/>
+                                  </a>
+                                </xsl:if>
+                              </td>
+                            </tr>
+                          </xsl:if>
+                        </xsl:for-each>
                       </xsl:for-each>
                       <div class="clearfix"> </div>
                     </table>
