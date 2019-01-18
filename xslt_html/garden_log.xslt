@@ -201,11 +201,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                           <xsl:sort select="date" order="descending"/>
                           <xsl:if test="date != ''">
                             <xsl:variable name="noteimage" select="image"/>
-                            
+
                             <tr>
                               <td>
                                 <img width="120" src="{$imgsrc}"/>
-                                <xsl:value-of select="$plantname"/>
+                                <p>
+                                  <xsl:value-of select="$plantname"/>
+                                </p>
                               </td>
                               <td>
                                 <xsl:value-of select="date"/>
