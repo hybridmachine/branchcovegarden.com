@@ -20,14 +20,14 @@
     <snapshot>
       <image>hot_biscuits.jpg</image>
     </snapshot>
-  <snapshot>
-    <image>gazanias.jpg</image> 
+    <snapshot>
+      <image>gazanias.jpg</image>
     </snapshot>
-  <snapshot>
-    <image>rosella.jpg</image> 
+    <snapshot>
+      <image>rosella.jpg</image>
     </snapshot>
-  <snapshot>
-    <image>sunflower1.jpg</image> 
+    <snapshot>
+      <image>sunflower1.jpg</image>
     </snapshot>
   </snapshots>
   <name>Branch Cove Garden</name>
@@ -121,7 +121,7 @@
           <image></image>
           <note>Planted in A1 - C2 of seed starter, running on heating mat</note>
         </entry>
-      </log>      
+      </log>
     </planting>
     <planting>
       <name>Mandarin Orange Cosmos</name>
@@ -273,6 +273,18 @@
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
+      <log>
+        <entry>
+          <date>01/19/2019</date>
+          <image>michelle_flower_box_layout2.jpg</image>
+          <note>Planted the mixed alliums in the back, hair alliums in the pot, and the Schuberti alliums in the front</note>
+        </entry>
+        <entry>
+          <date>01/19/2019</date>
+          <image>michelle_flower_box_planting.jpg</image>
+          <note>Snapshot of the alliums planting</note>
+        </entry>
+      </log>
     </planting>
     <planting>
       <name>Schubertii Allium</name>
@@ -559,7 +571,7 @@
         <harvest></harvest>
       </schedule>
     </planting>
-	<planting>
+    <planting>
       <name>Giant Lily-Of-The-Valley</name>
       <!-- Vendor information link -->
       <link><![CDATA[https://www.brecks.com/product/giant-lily-of-the-valley-61057]]></link>
@@ -573,6 +585,31 @@
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
+    </planting>
+    <planting>
+      <name>Hyacynths, Tulips, Daffodils</name>
+      <link><![CDATA[https://www.lowes.com/pl/Plant-bulbs-Plants-bulbs-seeds-Plants-planters-Outdoors/4294392550https://www.lowes.com/pl/Plant-bulbs-Plants-bulbs-seeds-Plants-planters-Outdoors/4294392550]]></link>
+      <image>images/tulips_daffodils_hyacynths.jpg</image>
+      <type>Flower</type>
+      <note></note>
+      <location>Flower Boxes</location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/01/2019</date>
+          <image>front_petunia_hyacinth_daffodils.jpg</image>
+          <note>Planted extra daffodils, hyacinths, and tulips in the front flower area</note>
+        </entry>
+        <entry>
+          <date>01/19/2019</date>
+          <image>brian_flower_box_sprouting.jpg</image>
+          <note>Hyacinths are starting to sprout</note>
+        </entry>
+      </log>
     </planting>
   </plantings>
 </garden_data>
