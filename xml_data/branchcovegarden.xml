@@ -292,6 +292,28 @@
       </log>
     </planting>
     <planting>
+      <name>Tonopah Hybrid Tomato</name>
+      <!-- Vendor information link -->
+      <link><![CDATA[https://www.seedsnsuch.com/product/tonopah-hybrid-tomato-vff/]]></link>
+      <!-- Vendor image link -->
+      <image><![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/tonopah-hybrid-tomato.jpg]]></image>
+      <type>Vegetable</type>
+      <note>A slicer with great adaptability</note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/27/2019</date>
+          <image></image>
+          <note>Planted in positions A1 and A2 in seed starter</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
       <name>Mad Hatter Hybrid Pepper</name>
       <!-- Vendor information link -->
       <link><![CDATA[https://www.seedsnsuch.com/product/mad-hatter-hybrid-pepper/]]></link>
