@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<garden_data>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<garden_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Brian/Source/Repos/hybridmachine/branchcovegarden.com/Schemas/branchcovegarden.xsd">
   <title>The Garden in the Cove</title>
   <contact>
     <name>Brian and Michelle</name>
@@ -699,6 +699,51 @@
           <image>brian_flower_box_sprouting.jpg</image>
           <note>Hyacinths are starting to sprout</note>
         </entry>
+        <entry>
+          <date>02/16/2019</date>
+          <image>brian_flowerbox_20190216.jpg</image>
+          <note>Hyacinths starting to flower</note>
+        </entry>
+        <entry>
+          <date>02/16/2019</date>
+          <image>michelle_flowerbox_20190216.jpg</image>
+          <note>More stuff sprouting in Michelle's flower box</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Deck Plants</name>
+      <link></link>
+      <image>images/flower_hut_20190216.jpg</image>
+      <type>Ornamental</type>
+      <note></note>
+      <location>Deck</location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>02/16/2019</date>
+          <image>flower_hut_20190216.jpg</image>
+          <note>Cyclamins, pansies, snap dragons, cactus all doing well</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Ornamentals in the yard</name>
+      <link></link>
+      <image>images/snapdragons_20190216.jpg</image>
+      <type>Ornamental</type>
+      <note></note>
+      <location>Yard</location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
       </log>
     </planting>
   </plantings>
