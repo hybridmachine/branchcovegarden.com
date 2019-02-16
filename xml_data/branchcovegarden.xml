@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<garden_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Brian/Source/Repos/hybridmachine/branchcovegarden.com/Schemas/branchcovegarden.xsd">
+<garden_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.branchcovegarden.com/xml_schemas/branchcovegarden.xsd">
   <title>The Garden in the Cove</title>
   <contact>
     <name>Brian and Michelle</name>
