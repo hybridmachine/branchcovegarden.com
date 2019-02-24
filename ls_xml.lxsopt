@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlStudioProjectOptions Version="16.1.19.8878">
+  <File>.\xml_schemas\branchcovegarden.xsd</File>
+  <File>.\xml_data\branchcovegarden.xml</File>
+  <ActiveWindow>branchcovegarden.xml</ActiveWindow>
+  <ProjectTreeState />
+  <UserProperties sourceUri=".\xml_schemas\branchcovegarden.xsd">
+    <Value name="Zoom">1</Value>
+  </UserProperties>
+</XmlStudioProjectOptions>
