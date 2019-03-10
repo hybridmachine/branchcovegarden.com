@@ -1,930 +1,960 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Liquid Studio 2018 (https://www.liquid-technologies.com) -->
 <garden_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.branchcovegarden.com/xml_schemas/branchcovegarden.xsd">
-    <title>The Garden in the Cove</title>
-    <contact>
-        <name>Brian and Michelle</name>
-        <address>
-            <street>Waterway Cove</street>
-            <city>Austin</city>
-            <state>TX</state>
-        </address>
-        <phone>512.825.0482</phone>
-        <email>brian.tabone@gmail.com</email>
-    </contact>
-    <analytics>UA-29197318-2</analytics>
-    <about>
-        The goings on in our garden and workshop here in the cove. A quiet garden nook tucked in a corner surrounded by trees and wildlife near our community park.
-    </about>
-    <snapshots>
-        <!-- These are images to display as a backdrop, highlighting events through the year. The name of the images only here, the full path is handled in the template-->
-        <snapshot>
-            <image>hot_biscuits.jpg</image>
-        </snapshot>
-        <snapshot>
-            <image>gazanias.jpg</image>
-        </snapshot>
-        <snapshot>
-            <image>rosella.jpg</image>
-        </snapshot>
-        <snapshot>
-            <image>sunflower1.jpg</image>
-        </snapshot>
-    </snapshots>
-    <name>Branch Cove Garden</name>
-    <headlines>
-        <headline>
-            <title>
-                Seed Starting
-            </title>
-            <paragraph>
-                January marks the start of seed starting for the spring garden.
-            </paragraph>
-        </headline>
-        <headline>
-            <title>
-                Fall Bulbs
-            </title>
-            <paragraph>
-                Tulips, Hyacinths, and Daffodils for Spring.
-            </paragraph>
-        </headline>
-    </headlines>
-    <articles>
-        <article>
-            <date>Dec-23-2018</date>
-            <author>Brian</author>
-            <title>Go Live!</title>
-            <paragraphs>
-                <paragraph>
-                    This is our new website, going live for the 2019 season.
-                </paragraph>
-            </paragraphs>
-        </article>
-    </articles>
-    <maps>
-        <map>
-            <image>michelle_flower_box_layout1.jpg</image>
-            <name>Michelle's Flower Box</name>
-        </map>
-        <map>
-            <image>brian_flower_box.jpg</image>
-            <name>Brian's Flower Box</name>
-        </map>
-    </maps>
-    <plantings>
-        <planting>
-            <name>Spellbound Dark Purple Petunia</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.burpee.com/flowers/petunias/petunia-spellbound-dark-purple-hybrid-prod500452.html]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwa327201d/Images/Product%20Images/prod500452/prod500452.jpg?sw=322&sh=380&sm=fit]]>
-            </image>
-            <type>Flower</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart type="planned">01/05/2019</seedstart>
-                <seedstart type="actual">01/09/2019</seedstart>
-                <transplant type="planned">03/15/2019</transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>02/06/2019</date>
-                    <image>petunias_20190206.jpg</image>
-                    <note>Seedlings need to move to bigger pots</note>
-                </entry>
-                <entry>
-                    <date>01/09/2019</date>
-                    <image></image>
-                    <note>Planted in D1 - F2 of seed starter, running on heating mat</note>
-                </entry>
-                <entry>
-                    <date>01/17/2019</date>
-                    <image>PetuniaSeedlings2019.jpg</image>
-                    <note>Seedlings have sprouted. Note these are both types of Spellbound (half dark purple, half red)</note>
-                </entry>
-                <entry>
-                    <date>02/02/2019</date>
-                    <image>petunias_20190202.jpg</image>
-                    <note>Seedlings are growing nicely, time to move to individual packs and prune out to single plant per cell</note>
-                </entry>
-                <entry>
-                    <date>03/06/2019</date>
-                    <image>petunias_20190306.jpg</image>
-                    <note>Interesting comparison in the size of petunias. The batch on the left went into larger pots about 1 week before the lot on the right. Both lots were started at the same time. The moral of the story, seedlings need to be placed in larger pots on schedule to facilitate proper growth.</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Spellbound Wine Red Petunia</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.burpee.com/flowers/petunias/petunia-spellbound-wine-red-hybrid-prod500455.html]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw715b528c/Images/Product%20Images/prod500455/prod500455.jpg?sw=322&sh=380&sm=fit]]>
-            </image>
-            <type>Flower</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart type="planned">01/05/2019</seedstart>
-                <seedstart type="actual">01/09/2019</seedstart>
-                <transplant type="planned">03/15/2019</transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>01/09/2019</date>
-                    <image></image>
-                    <note>Planted in A1 - C2 of seed starter, running on heating mat</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Mandarin Orange Cosmos</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.burpee.com/flowers/cosmos/cosmos-mandarin-orange-prod500425.html]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwc446bc9c/Images/Product%20Images/prod500425/prod500425.jpg?sw=322&sh=380&sm=fit]]>
-            </image>
-            <type>Flower</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <directsow type="planned">03/01/2019</directsow>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Heirloom Black Hybrid Tomato</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.seedsnsuch.com/product/heirloom-black-hybrid-tomato/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/heirloom-black-hybrid.jpg]]>
-            </image>
-            <type>Vegetable</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart type="planned">02/01/2019</seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>01/27/2019</date>
-                    <image></image>
-                    <note>Planted in positions C3 and C4 in seed starter</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Chef’s Choice Red Hybrid Tomato VFF</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.seedsnsuch.com/product/chefs-choice-red-hybrid-tomato-vff/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/chefs-choice-red-hybrid.jpg"]]>
-            </image>
-            <type>Vegetable</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>01/27/2019</date>
-                    <image></image>
-                    <note>Planted in positions B4 - C2 in seed starter</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Charger Hybrid Tomato VFFFAStTylcv</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.seedsnsuch.com/product/charger-vfffasttylcv-hybrid/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/charger-1.jpg]]>
-            </image>
-            <type>Vegetable</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>01/27/2019</date>
-                    <image></image>
-                    <note>Planted in positions D1 and D2 in seed starter</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Sugary Hybrid Tomato Seeds</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.seedsnsuch.com/product/sugary-hybrid-tomato-seeds/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/Tom_Sugary_cmyk-1.jpg]]>
-            </image>
-            <type>Vegetable</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>01/27/2019</date>
-                    <image></image>
-                    <note>Planted in positions D3 - E1 in seed starter</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Patio Choice Yellow Hybrid Tomato VFT</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.seedsnsuch.com/product/patio-choice-yellow-hybrid-tomato-vft/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/patiochoiceyellow-1.jpeg]]>
-            </image>
-            <type>Vegetable</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>01/27/2019</date>
-                    <image></image>
-                    <note>Planted in positions B1 - B3 in seed starter</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Harlequin Mix Dahlia</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.seedsnsuch.com/product/harlequin-mix/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/harlequin-1.jpg]]>
-            </image>
-            <type>Flower</type>
-            <note>Dahlia's from seed, never have tried that before.</note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Garden Salsa Hybrid Hot Pepper Seeds</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.seedsnsuch.com/product/garden-salsa-hybrid-hot-pepper-seeds/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/Pep_Garden_Salsa_cmyk-1.jpg]]>
-            </image>
-            <type>Vegetable</type>
-            <note>Medium heat bread specifically for use in salsas</note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>01/27/2019</date>
-                    <image></image>
-                    <note>Planted in positions E2 - E4 in seed starter</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Tonopah Hybrid Tomato</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.seedsnsuch.com/product/tonopah-hybrid-tomato-vff/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/tonopah-hybrid-tomato.jpg]]>
-            </image>
-            <type>Vegetable</type>
-            <note>A slicer with great adaptability</note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>02/16/2019</date>
-                    <image>seedlings_20190216.jpg</image>
-                    <note>Seedlings are growing nicely, time to prune to one per cell</note>
-                </entry>
-                <entry>
-                    <date>02/06/19</date>
-                    <image>seedlings_20190206.jpg</image>
-                    <note>Seedlings are sprouting well</note>
-                </entry>
-                <entry>
-                    <date>01/27/2019</date>
-                    <image></image>
-                    <note>Planted in positions A1 and A2 in seed starter</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Mad Hatter Hybrid Pepper</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.seedsnsuch.com/product/mad-hatter-hybrid-pepper/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/madhatter-1.jpeg]]>
-            </image>
-            <type>Vegetable</type>
-            <note>Sweet, mild heat, citrus notes</note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>01/27/2019</date>
-                    <image></image>
-                    <note>Planted in positions A3 and A4 in seed starter</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Mixed Alliums</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.brecks.com/product/giant-mixed-allium-super-bag]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.brecks.com/images/500/72751.jpg]]>
-            </image>
-            <type>Flower</type>
-            <note></note>
-            <location>Michelle's Flower Box</location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>01/19/2019</date>
-                    <image>michelle_flower_box_layout2.jpg</image>
-                    <note>Planted the mixed alliums in the back, hair alliums in the pot, and the Schuberti alliums in the front</note>
-                </entry>
-                <entry>
-                    <date>01/19/2019</date>
-                    <image>michelle_flower_box_planting.jpg</image>
-                    <note>Snapshot of the alliums planting</note>
-                </entry>
-                <entry>
-                    <date>03/02/2019</date>
-                    <image>michelle_flowerbox_20190302.jpg</image>
-                    <note>Ornamental onion foliage starting to show through</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Schubertii Allium</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.brecks.com/product/schubertii-allium]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.brecks.com/images/500/67227.jpg]]>
-            </image>
-            <type>Flower</type>
-            <note></note>
-            <location>Michelle's Flower Box</location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Hair Allium</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.brecks.com/product/hair-allium-]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.brecks.com/images/500/39472.jpg]]>
-            </image>
-            <type>Flower</type>
-            <note></note>
-            <location>Michelle's Flower Box</location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Autumn Beauty - Sunflower</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.rareseeds.com/autumn-beauty-sunflower/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Flower-Sunflower-Autumn-Beauty-FL720-web.jpg]]>
-            </image>
-            <type>Flower</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Red Roselle</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.rareseeds.com/red-roselle/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/roselle-thai-red1.jpg]]>
-            </image>
-            <type>Fruit</type>
-            <note>Beautiful flower, similar to Okra. This is the plant Hibiscus tea is made from. Some of the seeds are from last years crop</note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Agastache - Navajo Sunset</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.rareseeds.com/agastache-navajo-sunset-/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Agastache-Aunanantaca-Navajo-Sunset-LSS-000_09111.jpg]]>
-            </image>
-            <type>Flower</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>01/27/2019</date>
-                    <image></image>
-                    <note>Planted in positions F1 and F2 in seed starter</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Purple Lady Boc Choy</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.rareseeds.com/purple-lady-bok-choy-/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Greens-Oriental-Purple-Baby-Bok-Choi-LSS-DSC_7442.jpg]]>
-            </image>
-            <type>Vegetable</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Sugar Rush Peach Hot Pepper</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.rareseeds.com/sugar-rush-peach-hot-pepper-/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Pepper-Sugar-Rush-Peach-MA-IMG_1406.jpg]]>
-            </image>
-            <type>Fruit</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>01/27/2019</date>
-                    <image></image>
-                    <note>Planted in positions F3 and G1 in seed starter</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Molokai Purple Sweet Potato</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.rareseeds.com/sweet-potato-molokai-purple-3-plants-ships-march-june-/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Sweet-Potato-Molokai-Purple-LSS-(31).jpg]]>
-            </image>
-            <type>Root Vegetable</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Black Nebula Carrot</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.rareseeds.com/black-nebula-carrot/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Black-Nebula-Carrot-MA-DSC07863.jpg]]>
-            </image>
-            <type>Vegetable</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Mexican Sunflower - Red Torch</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.rareseeds.com/mexican-sunflower-red-torch/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Flower-Sunflower-Mexican-Torch-Red-DSC08036.jpg]]>
-            </image>
-            <type>Flower</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Giant Red Celery</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.rareseeds.com/giant-red-celery/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/CELERY-GIANT-RED-11401.jpg]]>
-            </image>
-            <type>Vegetable</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Rainbow Floral Strain Mix Coleus</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.rareseeds.com/rainbow-floral-strain-mix-coleus/]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Coleus--Rainbow-Floral-Strain-Mix-LSS-000_2625.jpg]]>
-            </image>
-            <type>Ornamental</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Chrysanthemum, Tricolor Daisy</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.burpee.com/flowers/chrysanthemum/chrysanthemum-tricolor-daisy-42861A.html]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwadd8a9aa/Images/Product%20Images/prod000156/prod000156.jpg?sw=322&sh=380&sm=fit]]>
-            </image>
-            <type>Flower</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart type="planned">01/11/2019</seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Arugala, Red Dragon</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.burpee.com/vegetables/arugula/arugula-red-dragon-54470A.html]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwc058dced/Images/Product%20Images/prod500402/prod500402.jpg?sw=322&sh=380&sm=fit]]>
-            </image>
-            <type>Vegetable</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Curled Chervil</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.burpee.com/herbs/chervil/chervil-curled-61390A.html]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwb03e0fc9/Images/Product%20Images/prod001078/prod001078.jpg?sw=322&sh=380&sm=fit]]>
-            </image>
-            <type>Vegetable</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Balsam Mix</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.burpee.com/flowers/balsam/balsam-mix-43018A.html]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwddcd6bc6/Images/Product%20Images/prod000129/prod000129.jpg?sw=322&sh=380&sm=fit]]>
-            </image>
-            <type>Flower</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Dusty Miller, Silver Lace</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.burpee.com/flowers/dusty-miller/dusty-miller-silver-lace-31336A.html]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwd64fad96/Images/Product%20Images/prod000198/prod000198.jpg?sw=322&sh=380&sm=fit]]>
-            </image>
-            <type>Ornamental</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Lobelia, Crystal Palace Blue</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.burpee.com/flowers/lobelias/lobelia-crystal-palace-blue-31971A.html]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw7ca025d8/Images/Product%20Images/prod000256/prod000256.jpg?sw=322&sh=380&sm=fit]]>
-            </image>
-            <type>Flower</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart type="planned">01/11/2019</seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Dichondra, Silver Falls</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.burpee.com/flowers/dichondra/dichondra-silver-falls-20422.html]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw4a08da73/Images/Product%20Images/prod001742/prod001742.jpg?sw=322&sh=380&sm=fit]]>
-            </image>
-            <type>Ornamental</type>
-            <note></note>
-            <location></location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Giant Lily-Of-The-Valley</name>
-            <!-- Vendor information link -->
-            <link>
-                <![CDATA[https://www.brecks.com/product/giant-lily-of-the-valley-61057]]>
-            </link>
-            <!-- Vendor image link -->
-            <image>
-                <![CDATA[https://s3.amazonaws.com/cdn.brecks.com/images/350/61057.jpg]]>
-            </image>
-            <type>Flower</type>
-            <note>Would work well in a container on the deck, loves part to full shade</note>
-            <location>Deck</location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-        </planting>
-        <planting>
-            <name>Hyacynths, Tulips, Daffodils</name>
-            <link>
-                <![CDATA[https://www.lowes.com/pl/Plant-bulbs-Plants-bulbs-seeds-Plants-planters-Outdoors/4294392550https://www.lowes.com/pl/Plant-bulbs-Plants-bulbs-seeds-Plants-planters-Outdoors/4294392550]]>
-            </link>
-            <image>images/tulips_daffodils_hyacynths.jpg</image>
-            <type>Flower</type>
-            <note></note>
-            <location>Flower Boxes</location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>01/01/2019</date>
-                    <image>front_petunia_hyacinth_daffodils.jpg</image>
-                    <note>Planted extra daffodils, hyacinths, and tulips in the front flower area</note>
-                </entry>
-                <entry>
-                    <date>01/19/2019</date>
-                    <image>brian_flower_box_sprouting.jpg</image>
-                    <note>Hyacinths are starting to sprout</note>
-                </entry>
-                <entry>
-                    <date>02/16/2019</date>
-                    <image>brian_flowerbox_20190216.jpg</image>
-                    <note>Hyacinths starting to flower</note>
-                </entry>
-                <entry>
-                    <date>02/16/2019</date>
-                    <image>michelle_flowerbox_20190216.jpg</image>
-                    <note>More stuff sprouting in Michelle's flower box</note>
-                </entry>
-                <entry>
-                    <date>02/24/2019</date>
-                    <image>michelle_flowerbox_20190224.jpg</image>
-                    <note>Flowers are growing nicely</note>
-                </entry>
-                <entry>
-                    <date>02/24/2019</date>
-                    <image>brian_flowerbox_20190224.jpg</image>
-                    <note>Hyacinths should be in full bloom in a few weeks</note>
-                </entry>
-                <entry>
-                    <date>03/02/2019</date>
-                    <image>brian_flowerbox_20190302.jpg</image>
-                    <note>Hyacinths getting fuller</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Deck Plants</name>
-            <link></link>
-            <image>images/flower_hut_20190216.jpg</image>
-            <type>Ornamental</type>
-            <note></note>
-            <location>Deck</location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-                <entry>
-                    <date>02/16/2019</date>
-                    <image>flower_hut_20190216.jpg</image>
-                    <note>Cyclamens, pansies, snap dragons, cactus all doing well</note>
-                </entry>
-                <entry>
-                    <date>02/24/2019</date>
-                    <image>flower_hut_20190224.jpg</image>
-                    <note>Cyclamens are doing well in the flower hut when its cold, outside when its nice. We added some kangaroo paw to the mix</note>
-                </entry>
-            </log>
-        </planting>
-        <planting>
-            <name>Ornamentals in the yard</name>
-            <link></link>
-            <image>images/snapdragons_20190216.jpg</image>
-            <type>Ornamental</type>
-            <note></note>
-            <location>Yard</location>
-            <schedule>
-                <seedstart></seedstart>
-                <transplant></transplant>
-                <harvest></harvest>
-            </schedule>
-            <log>
-            </log>
-        </planting>
-    </plantings>
+  <title>The Garden in the Cove</title>
+  <contact>
+    <name>Brian and Michelle</name>
+    <address>
+      <street>Waterway Cove</street>
+      <city>Austin</city>
+      <state>TX</state>
+    </address>
+    <phone>512.825.0482</phone>
+    <email>brian.tabone@gmail.com</email>
+  </contact>
+  <analytics>UA-29197318-2</analytics>
+  <about>
+    The goings on in our garden and workshop here in the cove. A quiet garden nook tucked in a corner surrounded by trees and wildlife near our community park.
+  </about>
+  <snapshots>
+    <!-- These are images to display as a backdrop, highlighting events through the year. The name of the images only here, the full path is handled in the template-->
+    <snapshot>
+      <image>hot_biscuits.jpg</image>
+    </snapshot>
+    <snapshot>
+      <image>gazanias.jpg</image>
+    </snapshot>
+    <snapshot>
+      <image>rosella.jpg</image>
+    </snapshot>
+    <snapshot>
+      <image>sunflower1.jpg</image>
+    </snapshot>
+  </snapshots>
+  <name>Branch Cove Garden</name>
+  <headlines>
+    <headline>
+      <title>
+        Seed Starting
+      </title>
+      <paragraph>
+        January marks the start of seed starting for the spring garden.
+      </paragraph>
+    </headline>
+    <headline>
+      <title>
+        Fall Bulbs
+      </title>
+      <paragraph>
+        Tulips, Hyacinths, and Daffodils for Spring.
+      </paragraph>
+    </headline>
+  </headlines>
+  <articles>
+    <article>
+      <date>Dec-23-2018</date>
+      <author>Brian</author>
+      <title>Go Live!</title>
+      <paragraphs>
+        <paragraph>
+          This is our new website, going live for the 2019 season.
+        </paragraph>
+      </paragraphs>
+    </article>
+  </articles>
+  <maps>
+    <map>
+      <image>michelle_flower_box_layout1.jpg</image>
+      <name>Michelle's Flower Box</name>
+    </map>
+    <map>
+      <image>brian_flower_box.jpg</image>
+      <name>Brian's Flower Box</name>
+    </map>
+  </maps>
+  <plantings>
+    <planting>
+      <name>Spellbound Dark Purple Petunia</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.burpee.com/flowers/petunias/petunia-spellbound-dark-purple-hybrid-prod500452.html]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwa327201d/Images/Product%20Images/prod500452/prod500452.jpg?sw=322&sh=380&sm=fit]]>
+      </image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart type="planned">01/05/2019</seedstart>
+        <seedstart type="actual">01/09/2019</seedstart>
+        <transplant type="planned">03/15/2019</transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>02/06/2019</date>
+          <image>petunias_20190206.jpg</image>
+          <note>Seedlings need to move to bigger pots</note>
+        </entry>
+        <entry>
+          <date>01/09/2019</date>
+          <image></image>
+          <note>Planted in D1 - F2 of seed starter, running on heating mat</note>
+        </entry>
+        <entry>
+          <date>01/17/2019</date>
+          <image>PetuniaSeedlings2019.jpg</image>
+          <note>Seedlings have sprouted. Note these are both types of Spellbound (half dark purple, half red)</note>
+        </entry>
+        <entry>
+          <date>02/02/2019</date>
+          <image>petunias_20190202.jpg</image>
+          <note>Seedlings are growing nicely, time to move to individual packs and prune out to single plant per cell</note>
+        </entry>
+        <entry>
+          <date>03/06/2019</date>
+          <image>petunias_20190306.jpg</image>
+          <note>Interesting comparison in the size of petunias. The batch on the left went into larger pots about 1 week before the lot on the right. Both lots were started at the same time. The moral of the story, seedlings need to be placed in larger pots on schedule to facilitate proper growth.</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Spellbound Wine Red Petunia</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.burpee.com/flowers/petunias/petunia-spellbound-wine-red-hybrid-prod500455.html]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw715b528c/Images/Product%20Images/prod500455/prod500455.jpg?sw=322&sh=380&sm=fit]]>
+      </image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart type="planned">01/05/2019</seedstart>
+        <seedstart type="actual">01/09/2019</seedstart>
+        <transplant type="planned">03/15/2019</transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/09/2019</date>
+          <image></image>
+          <note>Planted in A1 - C2 of seed starter, running on heating mat</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Red Potatos</name>
+      <image>images/red_potatoes.jpg</image>
+      <type>Vegetable</type>
+      <note>We planted some from the store that had sprouted, worth a try</note>
+      <log>
+        <entry>
+          <date>03/10/2019</date>
+          <image></image>
+          <note>Planted in black 10 gallon poly bags, planted two counter sprouted potatoes (one per bag)</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Yukon Gold Potatoes</name>
+      <link>
+        <![CDATA[https://www.burpee.com/vegetables/potatoes/potato-yukon-gold-13110.html]]>
+      </link>
+      <image>
+        <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw35f19051/Images/Product%20Images/prod000856/prod000856.jpg?sw=322&sh=380&sm=fit]]>
+      </image>
+      <note>Seed potatoes from last years harvest, some where wrinkly but had sprouts, gave em a try</note>
+      <log>
+        <entry>
+          <date>03/10/2019</date>
+          <image></image>
+          <note>Planted in black 10 gallon poly bags, three sprouted potatoes and one unsprouted. Two sprouted in one bag, one sprouted and unsprouted in the other</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Mandarin Orange Cosmos</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.burpee.com/flowers/cosmos/cosmos-mandarin-orange-prod500425.html]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwc446bc9c/Images/Product%20Images/prod500425/prod500425.jpg?sw=322&sh=380&sm=fit]]>
+      </image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <directsow type="planned">03/01/2019</directsow>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Heirloom Black Hybrid Tomato</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.seedsnsuch.com/product/heirloom-black-hybrid-tomato/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/heirloom-black-hybrid.jpg]]>
+      </image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart type="planned">02/01/2019</seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/27/2019</date>
+          <image></image>
+          <note>Planted in positions C3 and C4 in seed starter</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Chef’s Choice Red Hybrid Tomato VFF</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.seedsnsuch.com/product/chefs-choice-red-hybrid-tomato-vff/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/chefs-choice-red-hybrid.jpg"]]>
+      </image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/27/2019</date>
+          <image></image>
+          <note>Planted in positions B4 - C2 in seed starter</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Charger Hybrid Tomato VFFFAStTylcv</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.seedsnsuch.com/product/charger-vfffasttylcv-hybrid/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/charger-1.jpg]]>
+      </image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/27/2019</date>
+          <image></image>
+          <note>Planted in positions D1 and D2 in seed starter</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Sugary Hybrid Tomato Seeds</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.seedsnsuch.com/product/sugary-hybrid-tomato-seeds/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/Tom_Sugary_cmyk-1.jpg]]>
+      </image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/27/2019</date>
+          <image></image>
+          <note>Planted in positions D3 - E1 in seed starter</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Patio Choice Yellow Hybrid Tomato VFT</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.seedsnsuch.com/product/patio-choice-yellow-hybrid-tomato-vft/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/patiochoiceyellow-1.jpeg]]>
+      </image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/27/2019</date>
+          <image></image>
+          <note>Planted in positions B1 - B3 in seed starter</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Harlequin Mix Dahlia</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.seedsnsuch.com/product/harlequin-mix/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/harlequin-1.jpg]]>
+      </image>
+      <type>Flower</type>
+      <note>Dahlia's from seed, never have tried that before.</note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Garden Salsa Hybrid Hot Pepper Seeds</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.seedsnsuch.com/product/garden-salsa-hybrid-hot-pepper-seeds/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/Pep_Garden_Salsa_cmyk-1.jpg]]>
+      </image>
+      <type>Vegetable</type>
+      <note>Medium heat bread specifically for use in salsas</note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/27/2019</date>
+          <image></image>
+          <note>Planted in positions E2 - E4 in seed starter</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Tonopah Hybrid Tomato</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.seedsnsuch.com/product/tonopah-hybrid-tomato-vff/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/tonopah-hybrid-tomato.jpg]]>
+      </image>
+      <type>Vegetable</type>
+      <note>A slicer with great adaptability</note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>02/16/2019</date>
+          <image>seedlings_20190216.jpg</image>
+          <note>Seedlings are growing nicely, time to prune to one per cell</note>
+        </entry>
+        <entry>
+          <date>02/06/19</date>
+          <image>seedlings_20190206.jpg</image>
+          <note>Seedlings are sprouting well</note>
+        </entry>
+        <entry>
+          <date>01/27/2019</date>
+          <image></image>
+          <note>Planted in positions A1 and A2 in seed starter</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Mad Hatter Hybrid Pepper</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.seedsnsuch.com/product/mad-hatter-hybrid-pepper/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://seedsnsuch-qb2qm0z.netdna-ssl.com/wp-content/uploads/2018/11/madhatter-1.jpeg]]>
+      </image>
+      <type>Vegetable</type>
+      <note>Sweet, mild heat, citrus notes</note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/27/2019</date>
+          <image></image>
+          <note>Planted in positions A3 and A4 in seed starter</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Mixed Alliums</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.brecks.com/product/giant-mixed-allium-super-bag]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.brecks.com/images/500/72751.jpg]]>
+      </image>
+      <type>Flower</type>
+      <note></note>
+      <location>Michelle's Flower Box</location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/19/2019</date>
+          <image>michelle_flower_box_layout2.jpg</image>
+          <note>Planted the mixed alliums in the back, hair alliums in the pot, and the Schuberti alliums in the front</note>
+        </entry>
+        <entry>
+          <date>01/19/2019</date>
+          <image>michelle_flower_box_planting.jpg</image>
+          <note>Snapshot of the alliums planting</note>
+        </entry>
+        <entry>
+          <date>03/02/2019</date>
+          <image>michelle_flowerbox_20190302.jpg</image>
+          <note>Ornamental onion foliage starting to show through</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Schubertii Allium</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.brecks.com/product/schubertii-allium]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.brecks.com/images/500/67227.jpg]]>
+      </image>
+      <type>Flower</type>
+      <note></note>
+      <location>Michelle's Flower Box</location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Hair Allium</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.brecks.com/product/hair-allium-]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.brecks.com/images/500/39472.jpg]]>
+      </image>
+      <type>Flower</type>
+      <note></note>
+      <location>Michelle's Flower Box</location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Autumn Beauty - Sunflower</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.rareseeds.com/autumn-beauty-sunflower/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Flower-Sunflower-Autumn-Beauty-FL720-web.jpg]]>
+      </image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Red Roselle</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.rareseeds.com/red-roselle/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/roselle-thai-red1.jpg]]>
+      </image>
+      <type>Fruit</type>
+      <note>Beautiful flower, similar to Okra. This is the plant Hibiscus tea is made from. Some of the seeds are from last years crop</note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Agastache - Navajo Sunset</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.rareseeds.com/agastache-navajo-sunset-/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Agastache-Aunanantaca-Navajo-Sunset-LSS-000_09111.jpg]]>
+      </image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/27/2019</date>
+          <image></image>
+          <note>Planted in positions F1 and F2 in seed starter</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Purple Lady Boc Choy</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.rareseeds.com/purple-lady-bok-choy-/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Greens-Oriental-Purple-Baby-Bok-Choi-LSS-DSC_7442.jpg]]>
+      </image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Sugar Rush Peach Hot Pepper</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.rareseeds.com/sugar-rush-peach-hot-pepper-/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Pepper-Sugar-Rush-Peach-MA-IMG_1406.jpg]]>
+      </image>
+      <type>Fruit</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/27/2019</date>
+          <image></image>
+          <note>Planted in positions F3 and G1 in seed starter</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Molokai Purple Sweet Potato</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.rareseeds.com/sweet-potato-molokai-purple-3-plants-ships-march-june-/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Sweet-Potato-Molokai-Purple-LSS-(31).jpg]]>
+      </image>
+      <type>Root Vegetable</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Black Nebula Carrot</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.rareseeds.com/black-nebula-carrot/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Black-Nebula-Carrot-MA-DSC07863.jpg]]>
+      </image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Mexican Sunflower - Red Torch</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.rareseeds.com/mexican-sunflower-red-torch/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Flower-Sunflower-Mexican-Torch-Red-DSC08036.jpg]]>
+      </image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Giant Red Celery</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.rareseeds.com/giant-red-celery/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/CELERY-GIANT-RED-11401.jpg]]>
+      </image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Rainbow Floral Strain Mix Coleus</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.rareseeds.com/rainbow-floral-strain-mix-coleus/]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.rareseeds.com/assets/1/14/DimRegular/Coleus--Rainbow-Floral-Strain-Mix-LSS-000_2625.jpg]]>
+      </image>
+      <type>Ornamental</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Chrysanthemum, Tricolor Daisy</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.burpee.com/flowers/chrysanthemum/chrysanthemum-tricolor-daisy-42861A.html]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwadd8a9aa/Images/Product%20Images/prod000156/prod000156.jpg?sw=322&sh=380&sm=fit]]>
+      </image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart type="planned">01/11/2019</seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Arugala, Red Dragon</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.burpee.com/vegetables/arugula/arugula-red-dragon-54470A.html]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwc058dced/Images/Product%20Images/prod500402/prod500402.jpg?sw=322&sh=380&sm=fit]]>
+      </image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Curled Chervil</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.burpee.com/herbs/chervil/chervil-curled-61390A.html]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwb03e0fc9/Images/Product%20Images/prod001078/prod001078.jpg?sw=322&sh=380&sm=fit]]>
+      </image>
+      <type>Vegetable</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Balsam Mix</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.burpee.com/flowers/balsam/balsam-mix-43018A.html]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwddcd6bc6/Images/Product%20Images/prod000129/prod000129.jpg?sw=322&sh=380&sm=fit]]>
+      </image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Dusty Miller, Silver Lace</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.burpee.com/flowers/dusty-miller/dusty-miller-silver-lace-31336A.html]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dwd64fad96/Images/Product%20Images/prod000198/prod000198.jpg?sw=322&sh=380&sm=fit]]>
+      </image>
+      <type>Ornamental</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Lobelia, Crystal Palace Blue</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.burpee.com/flowers/lobelias/lobelia-crystal-palace-blue-31971A.html]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw7ca025d8/Images/Product%20Images/prod000256/prod000256.jpg?sw=322&sh=380&sm=fit]]>
+      </image>
+      <type>Flower</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart type="planned">01/11/2019</seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Dichondra, Silver Falls</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.burpee.com/flowers/dichondra/dichondra-silver-falls-20422.html]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://www.burpee.com/dw/image/v2/ABAQ_PRD/on/demandware.static/-/Sites-masterCatalog_Burpee/default/dw4a08da73/Images/Product%20Images/prod001742/prod001742.jpg?sw=322&sh=380&sm=fit]]>
+      </image>
+      <type>Ornamental</type>
+      <note></note>
+      <location></location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Giant Lily-Of-The-Valley</name>
+      <!-- Vendor information link -->
+      <link>
+        <![CDATA[https://www.brecks.com/product/giant-lily-of-the-valley-61057]]>
+      </link>
+      <!-- Vendor image link -->
+      <image>
+        <![CDATA[https://s3.amazonaws.com/cdn.brecks.com/images/350/61057.jpg]]>
+      </image>
+      <type>Flower</type>
+      <note>Would work well in a container on the deck, loves part to full shade</note>
+      <location>Deck</location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+    </planting>
+    <planting>
+      <name>Hyacynths, Tulips, Daffodils</name>
+      <link>
+        <![CDATA[https://www.lowes.com/pl/Plant-bulbs-Plants-bulbs-seeds-Plants-planters-Outdoors/4294392550https://www.lowes.com/pl/Plant-bulbs-Plants-bulbs-seeds-Plants-planters-Outdoors/4294392550]]>
+      </link>
+      <image>images/tulips_daffodils_hyacynths.jpg</image>
+      <type>Flower</type>
+      <note></note>
+      <location>Flower Boxes</location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>01/01/2019</date>
+          <image>front_petunia_hyacinth_daffodils.jpg</image>
+          <note>Planted extra daffodils, hyacinths, and tulips in the front flower area</note>
+        </entry>
+        <entry>
+          <date>01/19/2019</date>
+          <image>brian_flower_box_sprouting.jpg</image>
+          <note>Hyacinths are starting to sprout</note>
+        </entry>
+        <entry>
+          <date>02/16/2019</date>
+          <image>brian_flowerbox_20190216.jpg</image>
+          <note>Hyacinths starting to flower</note>
+        </entry>
+        <entry>
+          <date>02/16/2019</date>
+          <image>michelle_flowerbox_20190216.jpg</image>
+          <note>More stuff sprouting in Michelle's flower box</note>
+        </entry>
+        <entry>
+          <date>02/24/2019</date>
+          <image>michelle_flowerbox_20190224.jpg</image>
+          <note>Flowers are growing nicely</note>
+        </entry>
+        <entry>
+          <date>02/24/2019</date>
+          <image>brian_flowerbox_20190224.jpg</image>
+          <note>Hyacinths should be in full bloom in a few weeks</note>
+        </entry>
+        <entry>
+          <date>03/02/2019</date>
+          <image>brian_flowerbox_20190302.jpg</image>
+          <note>Hyacinths getting fuller</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Deck Plants</name>
+      <link></link>
+      <image>images/flower_hut_20190216.jpg</image>
+      <type>Ornamental</type>
+      <note></note>
+      <location>Deck</location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+        <entry>
+          <date>02/16/2019</date>
+          <image>flower_hut_20190216.jpg</image>
+          <note>Cyclamens, pansies, snap dragons, cactus all doing well</note>
+        </entry>
+        <entry>
+          <date>02/24/2019</date>
+          <image>flower_hut_20190224.jpg</image>
+          <note>Cyclamens are doing well in the flower hut when its cold, outside when its nice. We added some kangaroo paw to the mix</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Ornamentals in the yard</name>
+      <link></link>
+      <image>images/snapdragons_20190216.jpg</image>
+      <type>Ornamental</type>
+      <note></note>
+      <location>Yard</location>
+      <schedule>
+        <seedstart></seedstart>
+        <transplant></transplant>
+        <harvest></harvest>
+      </schedule>
+      <log>
+      </log>
+    </planting>
+  </plantings>
 </garden_data>
