@@ -204,6 +204,43 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           </div>
         </div>
         <!-- //about -->
+        <!-- news -->
+        <div class="news" id="news">
+          <div class="container">
+            <div class="w3ls-heading">
+              <h3>News</h3>
+            </div>
+            <div class="wthree-news-grids">
+              <xsl:for-each select="garden_data/articles/article[not(position() >3)]">
+                <xsl:variable name="imgsrc" select="image"/>
+                <div class="col-md-4 agile-news-right-info">
+                  <div class="col-md-6">
+                    <image style="max-width:100%" src="{$imgsrc}"/>
+                  </div>
+                  <div class="col-md-6 agile-news-img-info">
+                    <h5>
+                      <a href="#" data-toggle="modal" data-target="#myModal">
+                        <xsl:value-of select="title"/>
+                      </a>
+                    </h5>
+                    <div class="agileits-w3layouts-border"> </div>
+                    <p>
+                      <xsl:value-of select="paragraphs/paragraph"/>
+                    </p>
+                    <h6>
+                      <i class="fa fa-calendar" aria-hidden="true"></i>
+                      <xsl:value-of select="date"/>
+                    </h6>
+                  </div>
+                  <div class="clearfix"> </div>
+                </div>
+              </xsl:for-each>
+              <div class="clearfix"> </div>
+            </div>
+            <div class="clearfix"> </div>
+          </div>
+        </div>
+        <!-- //news -->
         <!-- gallery -->
         <div class="gallery" id="gallery">
           <div class="container">
@@ -274,42 +311,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           </div>
         </div>
         <!-- //gallery -->
-        <!-- news -->
-        <div class="news" id="news">
-          <div class="container">
-            <div class="w3ls-heading">
-              <h3>News</h3>
-            </div>
-            <div class="wthree-news-grids">
-              <xsl:for-each select="garden_data/articles/article[not(position() >3)]">
-                <div class="col-md-4 agile-news-right-info">
-                  <div class="col-md-6 agile-news-img">
-
-                  </div>
-                  <div class="col-md-6 agile-news-img-info">
-                    <h5>
-                      <a href="#" data-toggle="modal" data-target="#myModal">
-                        <xsl:value-of select="title"/>
-                      </a>
-                    </h5>
-                    <div class="agileits-w3layouts-border"> </div>
-                    <p>
-                      <xsl:value-of select="paragraphs/paragraph"/>
-                    </p>
-                    <h6>
-                      <i class="fa fa-calendar" aria-hidden="true"></i>
-                      <xsl:value-of select="date"/>
-                    </h6>
-                  </div>
-                  <div class="clearfix"> </div>
-                </div>
-              </xsl:for-each>
-              <div class="clearfix"> </div>
-            </div>
-            <div class="clearfix"> </div>
-          </div>
-        </div>
-        <!-- //news -->
         <!-- modal -->
         <div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">

@@ -57,12 +57,13 @@
         <xs:element minOccurs="0" name="articles">
           <xs:complexType>
             <xs:sequence>
-              <xs:element minOccurs="0" name="article">
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="article">
                 <xs:complexType>
                   <xs:sequence>
                     <xs:element minOccurs="0" name="date" type="xs:string" />
                     <xs:element minOccurs="0" name="author" type="xs:string" />
                     <xs:element minOccurs="0" name="title" type="xs:string" />
+                    <xs:element minOccurs="0" name="image" type="xs:string" />
                     <xs:element minOccurs="0" name="paragraphs">
                       <xs:complexType>
                         <xs:sequence>

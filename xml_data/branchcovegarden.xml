@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Liquid Studio 2018 (https://www.liquid-technologies.com) -->
-<garden_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.branchcovegarden.com/xml_schemas/branchcovegarden.xsd">
+<garden_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xml_schemas/branchcovegarden.xsd">
   <title>The Garden in the Cove</title>
   <contact>
     <name>Brian and Michelle</name>
@@ -19,7 +19,7 @@
   <snapshots>
     <!-- These are images to display as a backdrop, highlighting events through the year. The name of the images only here, the full path is handled in the template-->
     <snapshot>
-      <image>hot_biscuits.jpg</image>
+      <image>bric_a_brac.jpg</image>
     </snapshot>
     <snapshot>
       <image>gazanias.jpg</image>
@@ -51,6 +51,17 @@
     </headline>
   </headlines>
   <articles>
+    <article>
+      <date>Mar-17-2019</date>
+      <author>Brian</author>
+      <title>Pops planting nasturtiums</title>
+      <image>images/pops_planting_nasturtiums.jpg</image>
+      <paragraphs>
+        <paragraph>
+          Spring planting begins.
+        </paragraph>
+      </paragraphs>
+    </article>
     <article>
       <date>Dec-23-2018</date>
       <author>Brian</author>
@@ -467,6 +478,11 @@
           <date>03/02/2019</date>
           <image>michelle_flowerbox_20190302.jpg</image>
           <note>Ornamental onion foliage starting to show through</note>
+        </entry>
+        <entry>
+          <date>03/21/2019</date>
+          <image>michelle_flowerbox_20190321.jpg</image>
+          <note>Ranunculus in bloom</note>
         </entry>
       </log>
     </planting>
@@ -913,6 +929,11 @@
           <date>03/02/2019</date>
           <image>brian_flowerbox_20190302.jpg</image>
           <note>Hyacinths getting fuller</note>
+        </entry>
+        <entry>
+          <date>03/21/2019</date>
+          <image>brian_flowerbox_20190321.jpg</image>
+          <note>Daffodils in full bloom, Petunias as well</note>
         </entry>
       </log>
     </planting>
