@@ -169,6 +169,11 @@
           <image></image>
           <note>Planted in black 10 gallon poly bags, planted two counter sprouted potatoes (one per bag)</note>
         </entry>
+        <entry>
+          <date>03/24/2019</date>
+          <image>red_potato_sprout.jpg</image>
+          <note>First breakthrough of sprouts</note>
+        </entry>
       </log>
     </planting>
     <planting>
@@ -185,6 +190,11 @@
           <date>03/10/2019</date>
           <image></image>
           <note>Planted in black 10 gallon poly bags, three sprouted potatoes and one unsprouted. Two sprouted in one bag, one sprouted and unsprouted in the other</note>
+        </entry>
+        <entry>
+          <date>03/24/2019</date>
+          <image>yukon_gold_sprout.jpg</image>
+          <note>First sprouts</note>
         </entry>
       </log>
     </planting>
@@ -975,6 +985,41 @@
         <harvest></harvest>
       </schedule>
       <log>
+      </log>
+    </planting>
+    <planting>
+      <name>Peas n Carrots</name>
+      <link></link>
+      <image>images/peas_n_carrots.jpg</image>
+      <type>vegetable</type>
+      <note>Peas, Carrots, Swiss Chard, Nasturtiums</note>
+      <location>Yard</location>
+      <log>
+        <entry>
+          <date>03/17/2019</date>
+          <image>pops_planting.jpg</image>
+          <note>Pops is planting carrots</note>
+        </entry>
+        <entry>
+          <date>03/17/2019</date>
+          <image>pops_watering.jpg</image>
+          <note>Pops watering in</note>
+        </entry>
+      </log>
+    </planting>
+    <planting>
+      <name>Scented Geranium</name>
+      <link></link>
+      <image>images/scented_geranium.jpg</image>
+      <type>ornamental</type>
+      <note></note>
+      <location>Deck</location>
+      <log>
+        <entry>
+          <date>03/24/2019</date>
+          <image>scented_geranium_flowering.jpg</image>
+          <note>Scented Geranium in bloom</note>
+        </entry>
       </log>
     </planting>
   </plantings>

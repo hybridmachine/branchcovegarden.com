@@ -6,8 +6,9 @@
     "\\transform_scripts",
     "\\transform_scripts\\transforms",
     "\\xml_data",
+    "\\xml_schemas",
     "\\xslt_html"
   ],
-  "SelectedNode": "\\.gitattributes",
+  "SelectedNode": "\\xslt_html\\garden_log.xslt",
   "PreviewInSolutionExplorer": false
 }
