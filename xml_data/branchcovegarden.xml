@@ -105,6 +105,11 @@
       </schedule>
       <log>
         <entry>
+          <date>03/30/2019</date>
+          <image>petunias_20190330.jpg</image>
+          <note>First petunia to bloom, starting to move them to pots and in beds</note>
+        </entry>
+        <entry>
           <date>02/06/2019</date>
           <image>petunias_20190206.jpg</image>
           <note>Seedlings need to move to bigger pots</note>
@@ -164,6 +169,11 @@
       <type>Vegetable</type>
       <note>We planted some from the store that had sprouted, worth a try</note>
       <log>
+        <entry>
+          <date>03/30/2019</date>
+          <image>red_potato_20190330.jpg</image>
+          <note>Potatos are growing, hilling up dirt to follow</note>
+        </entry>
         <entry>
           <date>03/10/2019</date>
           <image></image>
@@ -514,6 +524,13 @@
         <transplant></transplant>
         <harvest></harvest>
       </schedule>
+      <log>
+        <entry>
+          <date>03/30/2019</date>
+          <image>allium_20190330.jpg</image>
+          <note>First allium developing</note>
+        </entry>
+      </log>
     </planting>
     <planting>
       <name>Hair Allium</name>
